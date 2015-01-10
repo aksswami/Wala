@@ -18,7 +18,7 @@
              };
 }
 
-+ (RKObjectMapping *) demographicMappingResponse {
++ (RKObjectMapping *) addressFreetextMappingResponse {
     // Create an object mapping.
     RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[AddressFreetext class]];
     [mapping addAttributeMappingsFromDictionary:[AddressFreetext elementToPropertyMappings]];
@@ -29,7 +29,7 @@
     return mapping;
 }
 
-+ (RKObjectMapping *) demographicMappingRequest {
++ (RKObjectMapping *) addressFreetextMappingRequest {
     // Create an object mapping.
     RKObjectMapping *mapping = [RKObjectMapping requestMapping];
     [mapping addAttributeMappingsFromDictionary:[AddressFreetext elementToPropertyMappings]];

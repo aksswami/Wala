@@ -19,8 +19,8 @@
     FIObjectManager *sharedManager  = [self managerWithBaseURL:baseURL];
     sharedManager.requestSerializationMIMEType = RKMIMETypeJSON;
     
-   // RKLogConfigureByName("RestKit", RKLogLevelWarning);
-   // RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelTrace);
+    RKLogConfigureByName("RestKit", RKLogLevelWarning);
+    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelTrace);
     RKLogConfigureByName("RestKit/Network", RKLogLevelTrace);
     /*
      THIS CLASS IS MAIN POINT FOR CUSTOMIZATION:
@@ -29,6 +29,7 @@
      - define methods that should be available across all object managers
      */
     
+    [sharedManager.HTTPClient setDefaultHeader:@"Content-Type" value:@"application/json"];
     [sharedManager setupRequestDescriptors];
     [sharedManager setupResponseDescriptors];
     

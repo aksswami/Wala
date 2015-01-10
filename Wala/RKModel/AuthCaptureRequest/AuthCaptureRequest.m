@@ -13,14 +13,14 @@
 
 + (NSDictionary*)elementToPropertyMappings {
     return @{
-             @"aadhaar-id" : @"aadhaarId",
+             @"aadhaarId" : @"aadhaar-id",
              @"modality" : @"modality",
-             @"modality-type" : @"modalityType",
-             @"number-of-fingers-to-capture" : @"numberOfFingersToCapture",
-             @"number-of-iris-to-capture" : @"numberOfIrisToCapture",
+             @"modalityType" :@"modality-type",
+             @"numberOfFingersToCapture" : @"number-of-fingers-to-capture",
+             @"numberOfIrisToCapture" :@"number-of-iris-to-capture",
              @"otp" : @"otp",
-             @"device-id" : @"deviceId",
-             @"certificate-type" : @"certificateType"
+             @"deviceId" : @"device-id" ,
+             @"certificateType" :@"certificate-type" 
              };
 }
 
@@ -42,6 +42,34 @@
     
     // Add some relation mappings (if any.)
      [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"demographics" toKeyPath:@"demographics" withMapping:[Demographics demographicMappingRequest]]];
+    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location" withMapping:[Location locationMappingRequest]]];
+    
+    
+    return mapping;
+}
+
+//OTP Mapping
+
++ (RKObjectMapping *) otpMappingResponse {
+    // Create an object mapping.
+    RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[AuthCaptureRequest class]];
+    [mapping addAttributeMappingsFromDictionary:[AuthCaptureRequest elementToPropertyMappings]];
+    
+    
+    // Add some relation mappings (if any.)
+    //[mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"loginBeanDetail" toKeyPath:@"loginDetails" withMapping:[LoginDetails loginDetailsMappingResponse]]];
+    
+    return mapping;
+}
+
++ (RKObjectMapping *) otpMappingRequest {
+    // Create an object mapping.
+    RKObjectMapping *mapping = [RKObjectMapping requestMapping];
+    [mapping addAttributeMappingsFromDictionary:[AuthCaptureRequest elementToPropertyMappings]];
+    [mapping addAttributeMappingsFromDictionary:@{@"channel" : @"channel"}];
+    
+    // Add some relation mappings (if any.)
+    
     [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location" withMapping:[Location locationMappingRequest]]];
     
     

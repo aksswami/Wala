@@ -29,6 +29,12 @@
 		09D31C741A6195B300A1B1E6 /* Demographics.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C6C1A6195B300A1B1E6 /* Demographics.m */; };
 		09D31C751A6195B300A1B1E6 /* DOB.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C6F1A6195B300A1B1E6 /* DOB.m */; };
 		09D31C761A6195B300A1B1E6 /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C721A6195B300A1B1E6 /* Name.m */; };
+		09D31C7A1A6199E600A1B1E6 /* FinalResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C791A6199E600A1B1E6 /* FinalResponse.m */; };
+		09D31C7F1A61A04100A1B1E6 /* POI.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C7E1A61A04100A1B1E6 /* POI.m */; };
+		09D31C821A61A1A600A1B1E6 /* KYCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C811A61A1A600A1B1E6 /* KYCResponse.m */; };
+		09D31C871A61B7D100A1B1E6 /* OTPObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C861A61B7D100A1B1E6 /* OTPObjectManager.m */; };
+		09D31C8B1A61BBD800A1B1E6 /* KYCObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C8A1A61BBD800A1B1E6 /* KYCObjectManager.m */; };
+		09D31C8D1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */; };
 		3E673291B67536B4E32B7CF1 /* libPods-Wala.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C984387457D561BC07C4B4 /* libPods-Wala.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +92,17 @@
 		09D31C6F1A6195B300A1B1E6 /* DOB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOB.m; sourceTree = "<group>"; };
 		09D31C711A6195B300A1B1E6 /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
 		09D31C721A6195B300A1B1E6 /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
+		09D31C781A6199E600A1B1E6 /* FinalResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinalResponse.h; path = AuthResponse/FinalResponse.h; sourceTree = "<group>"; };
+		09D31C791A6199E600A1B1E6 /* FinalResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinalResponse.m; path = AuthResponse/FinalResponse.m; sourceTree = "<group>"; };
+		09D31C7D1A61A04100A1B1E6 /* POI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POI.h; path = KYC/POI/POI.h; sourceTree = "<group>"; };
+		09D31C7E1A61A04100A1B1E6 /* POI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POI.m; path = KYC/POI/POI.m; sourceTree = "<group>"; };
+		09D31C801A61A1A600A1B1E6 /* KYCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYCResponse.h; path = KYC/KYCResponse.h; sourceTree = "<group>"; };
+		09D31C811A61A1A600A1B1E6 /* KYCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYCResponse.m; path = KYC/KYCResponse.m; sourceTree = "<group>"; };
+		09D31C851A61B7D100A1B1E6 /* OTPObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTPObjectManager.h; path = RKObjectManager/OTPObjectManager/OTPObjectManager.h; sourceTree = "<group>"; };
+		09D31C861A61B7D100A1B1E6 /* OTPObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTPObjectManager.m; path = RKObjectManager/OTPObjectManager/OTPObjectManager.m; sourceTree = "<group>"; };
+		09D31C891A61BBD800A1B1E6 /* KYCObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYCObjectManager.h; path = RKObjectManager/KYCObjectManager/KYCObjectManager.h; sourceTree = "<group>"; };
+		09D31C8A1A61BBD800A1B1E6 /* KYCObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYCObjectManager.m; path = RKObjectManager/KYCObjectManager/KYCObjectManager.m; sourceTree = "<group>"; };
+		09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ErrorCodeMsg.plist; path = Wala/SupportingFiles/ErrorCodeMsg.plist; sourceTree = SOURCE_ROOT; };
 		457A3F67C90D9FD5F6047550 /* Pods-Wala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wala/Pods-Wala.release.xcconfig"; sourceTree = "<group>"; };
 		C5C984387457D561BC07C4B4 /* libPods-Wala.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wala.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -198,6 +215,8 @@
 		09D31C371A617DAE00A1B1E6 /* RKModel */ = {
 			isa = PBXGroup;
 			children = (
+				09D31C7B1A61A01500A1B1E6 /* KYCResponse */,
+				09D31C771A6199A200A1B1E6 /* FinalResponse */,
 				09D31C631A61950800A1B1E6 /* KYCRequest */,
 				09D31C381A617DAE00A1B1E6 /* AuthCaptureRequest */,
 				09D31C3E1A617DAE00A1B1E6 /* Location */,
@@ -237,19 +256,20 @@
 		09D31C441A617DC100A1B1E6 /* GenericClass */ = {
 			isa = PBXGroup;
 			children = (
-				09D31C451A617DC100A1B1E6 /* BaseWebService */,
+				09D31C451A617DC100A1B1E6 /* BaseObjectManager */,
 				09D31C481A617DC100A1B1E6 /* FIBaseViewController */,
 				09D31C4B1A617DC100A1B1E6 /* GenericTableViewCell */,
 			);
 			path = GenericClass;
 			sourceTree = "<group>";
 		};
-		09D31C451A617DC100A1B1E6 /* BaseWebService */ = {
+		09D31C451A617DC100A1B1E6 /* BaseObjectManager */ = {
 			isa = PBXGroup;
 			children = (
 				09D31C461A617DC100A1B1E6 /* FIObjectManager.h */,
 				09D31C471A617DC100A1B1E6 /* FIObjectManager.m */,
 			);
+			name = BaseObjectManager;
 			path = BaseWebService;
 			sourceTree = "<group>";
 		};
@@ -317,6 +337,61 @@
 				09D31C721A6195B300A1B1E6 /* Name.m */,
 			);
 			path = Name;
+			sourceTree = "<group>";
+		};
+		09D31C771A6199A200A1B1E6 /* FinalResponse */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C781A6199E600A1B1E6 /* FinalResponse.h */,
+				09D31C791A6199E600A1B1E6 /* FinalResponse.m */,
+			);
+			name = FinalResponse;
+			sourceTree = "<group>";
+		};
+		09D31C7B1A61A01500A1B1E6 /* KYCResponse */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C7C1A61A01D00A1B1E6 /* POI */,
+				09D31C801A61A1A600A1B1E6 /* KYCResponse.h */,
+				09D31C811A61A1A600A1B1E6 /* KYCResponse.m */,
+			);
+			name = KYCResponse;
+			sourceTree = "<group>";
+		};
+		09D31C7C1A61A01D00A1B1E6 /* POI */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C7D1A61A04100A1B1E6 /* POI.h */,
+				09D31C7E1A61A04100A1B1E6 /* POI.m */,
+			);
+			name = POI;
+			sourceTree = "<group>";
+		};
+		09D31C831A61B72E00A1B1E6 /* RKObjectManager */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C881A61BBBD00A1B1E6 /* KYCObjectManager */,
+				09D31C841A61B73D00A1B1E6 /* OTPObjectManager */,
+			);
+			name = RKObjectManager;
+			sourceTree = "<group>";
+		};
+		09D31C841A61B73D00A1B1E6 /* OTPObjectManager */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C851A61B7D100A1B1E6 /* OTPObjectManager.h */,
+				09D31C861A61B7D100A1B1E6 /* OTPObjectManager.m */,
+			);
+			name = OTPObjectManager;
+			sourceTree = "<group>";
+		};
+		09D31C881A61BBBD00A1B1E6 /* KYCObjectManager */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C891A61BBD800A1B1E6 /* KYCObjectManager.h */,
+				09D31C8A1A61BBD800A1B1E6 /* KYCObjectManager.m */,
+			);
+			name = KYCObjectManager;
 			sourceTree = "<group>";
 		};
 		DF7918B6B321BF8A8C41C445 /* Pods */ = {
@@ -419,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D31C8D1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist in Resources */,
 				097E28721A6125C9002ADDEC /* Main.storyboard in Resources */,
 				04C3574E1A6182570005554F /* Wala_Text_logo.png in Resources */,
 				097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */,
@@ -480,8 +556,10 @@
 				09D31C411A617DAE00A1B1E6 /* AddressStructured.m in Sources */,
 				04C357591A6197330005554F /* WLProfileViewController.m in Sources */,
 				09D31C751A6195B300A1B1E6 /* DOB.m in Sources */,
+				09D31C8B1A61BBD800A1B1E6 /* KYCObjectManager.m in Sources */,
 				09D31C661A61952800A1B1E6 /* KYCRequest.m in Sources */,
 				09D31C4E1A617DC100A1B1E6 /* FIObjectManager.m in Sources */,
+				09D31C7F1A61A04100A1B1E6 /* POI.m in Sources */,
 				09D31C761A6195B300A1B1E6 /* Name.m in Sources */,
 				09D31C431A617DAE00A1B1E6 /* Location.m in Sources */,
 				09D31C4F1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m in Sources */,
@@ -613,6 +691,8 @@
 			baseConfigurationReference = 0959D258FAFADC6D5E35ECD9 /* Pods-Wala.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wala/Wala-Prefix.pch";
 				INFOPLIST_FILE = Wala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,6 +705,8 @@
 			baseConfigurationReference = 457A3F67C90D9FD5F6047550 /* Pods-Wala.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wala/Wala-Prefix.pch";
 				INFOPLIST_FILE = Wala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
