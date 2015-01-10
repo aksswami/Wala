@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044DB5E21A61579600F8664D /* WLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5E11A61579600F8664D /* WLProfileViewController.m */; };
-		044DB5EC1A61593D00F8664D /* WLRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5EB1A61593D00F8664D /* WLRegistrationViewController.m */; };
-		044DB5F01A615A7D00F8664D /* WLTakeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5EF1A615A7D00F8664D /* WLTakeImageView.m */; };
-		044DB5F21A615A9400F8664D /* TakeImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044DB5F11A615A9400F8664D /* TakeImageView.xib */; };
+		04C3574E1A6182570005554F /* Wala_Text_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C3574D1A6182570005554F /* Wala_Text_logo.png */; };
+		04C357521A6185E40005554F /* WLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357511A6185E40005554F /* WLRegisterViewController.m */; };
+		04C357591A6197330005554F /* WLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357581A6197330005554F /* WLProfileViewController.m */; };
+		04C3575B1A619BD20005554F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C3575A1A619BD20005554F /* QuartzCore.framework */; };
 		097E28661A6125C9002ADDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28651A6125C9002ADDEC /* main.m */; };
 		097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28681A6125C9002ADDEC /* AppDelegate.m */; };
 		097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */; };
@@ -38,13 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044DB5E01A61579600F8664D /* WLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLProfileViewController.h; path = ProfileView/WLProfileViewController.h; sourceTree = "<group>"; };
-		044DB5E11A61579600F8664D /* WLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLProfileViewController.m; path = ProfileView/WLProfileViewController.m; sourceTree = "<group>"; };
-		044DB5EA1A61593D00F8664D /* WLRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLRegistrationViewController.h; path = RegistrationView/WLRegistrationViewController.h; sourceTree = "<group>"; };
-		044DB5EB1A61593D00F8664D /* WLRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLRegistrationViewController.m; path = RegistrationView/WLRegistrationViewController.m; sourceTree = "<group>"; };
-		044DB5EE1A615A7D00F8664D /* WLTakeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLTakeImageView.h; path = RegistrationView/TakeImageView/WLTakeImageView.h; sourceTree = "<group>"; };
-		044DB5EF1A615A7D00F8664D /* WLTakeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLTakeImageView.m; path = RegistrationView/TakeImageView/WLTakeImageView.m; sourceTree = "<group>"; };
-		044DB5F11A615A9400F8664D /* TakeImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeImageView.xib; sourceTree = "<group>"; };
+		04C3574D1A6182570005554F /* Wala_Text_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wala_Text_logo.png; sourceTree = "<group>"; };
+		04C357501A6185E40005554F /* WLRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLRegisterViewController.h; path = RegisterView/WLRegisterViewController.h; sourceTree = "<group>"; };
+		04C357511A6185E40005554F /* WLRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLRegisterViewController.m; path = RegisterView/WLRegisterViewController.m; sourceTree = "<group>"; };
+		04C357571A6197330005554F /* WLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLProfileViewController.h; path = ProfileView/WLProfileViewController.h; sourceTree = "<group>"; };
+		04C357581A6197330005554F /* WLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLProfileViewController.m; path = ProfileView/WLProfileViewController.m; sourceTree = "<group>"; };
+		04C3575A1A619BD20005554F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0959D258FAFADC6D5E35ECD9 /* Pods-Wala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wala/Pods-Wala.debug.xcconfig"; sourceTree = "<group>"; };
 		097E28601A6125C9002ADDEC /* Wala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097E28641A6125C9002ADDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C3575B1A619BD20005554F /* QuartzCore.framework in Frameworks */,
 				3E673291B67536B4E32B7CF1 /* libPods-Wala.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,30 +98,19 @@
 		044DB5DF1A6156AA00F8664D /* ProfileView */ = {
 			isa = PBXGroup;
 			children = (
-				044DB5E01A61579600F8664D /* WLProfileViewController.h */,
-				044DB5E11A61579600F8664D /* WLProfileViewController.m */,
+				04C357571A6197330005554F /* WLProfileViewController.h */,
+				04C357581A6197330005554F /* WLProfileViewController.m */,
 			);
 			name = ProfileView;
 			sourceTree = "<group>";
 		};
-		044DB5E91A6158DB00F8664D /* RegistrationView */ = {
+		04C3574F1A6185940005554F /* RegisterView */ = {
 			isa = PBXGroup;
 			children = (
-				044DB5ED1A615A4000F8664D /* TakeImageView */,
-				044DB5EA1A61593D00F8664D /* WLRegistrationViewController.h */,
-				044DB5EB1A61593D00F8664D /* WLRegistrationViewController.m */,
+				04C357501A6185E40005554F /* WLRegisterViewController.h */,
+				04C357511A6185E40005554F /* WLRegisterViewController.m */,
 			);
-			name = RegistrationView;
-			sourceTree = "<group>";
-		};
-		044DB5ED1A615A4000F8664D /* TakeImageView */ = {
-			isa = PBXGroup;
-			children = (
-				044DB5EE1A615A7D00F8664D /* WLTakeImageView.h */,
-				044DB5EF1A615A7D00F8664D /* WLTakeImageView.m */,
-				044DB5F11A615A9400F8664D /* TakeImageView.xib */,
-			);
-			name = TakeImageView;
+			name = RegisterView;
 			sourceTree = "<group>";
 		};
 		097E28571A6125C9002ADDEC = {
@@ -147,9 +136,9 @@
 		097E28621A6125C9002ADDEC /* Wala */ = {
 			isa = PBXGroup;
 			children = (
+				04C3574F1A6185940005554F /* RegisterView */,
 				09D31C441A617DC100A1B1E6 /* GenericClass */,
 				09D31C371A617DAE00A1B1E6 /* RKModel */,
-				044DB5E91A6158DB00F8664D /* RegistrationView */,
 				044DB5DF1A6156AA00F8664D /* ProfileView */,
 				097E28671A6125C9002ADDEC /* AppDelegate.h */,
 				097E28681A6125C9002ADDEC /* AppDelegate.m */,
@@ -165,6 +154,7 @@
 		097E28631A6125C9002ADDEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04C3574D1A6182570005554F /* Wala_Text_logo.png */,
 				09D31C511A617DF700A1B1E6 /* Constant.h */,
 				09D31C521A617DF700A1B1E6 /* Wala-Prefix.pch */,
 				097E28641A6125C9002ADDEC /* Info.plist */,
@@ -276,6 +266,7 @@
 		F407403D32D94688F6955525 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04C3575A1A619BD20005554F /* QuartzCore.framework */,
 				C5C984387457D561BC07C4B4 /* libPods-Wala.a */,
 			);
 			name = Frameworks;
@@ -364,7 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				097E28721A6125C9002ADDEC /* Main.storyboard in Resources */,
-				044DB5F21A615A9400F8664D /* TakeImageView.xib in Resources */,
+				04C3574E1A6182570005554F /* Wala_Text_logo.png in Resources */,
 				097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */,
 				097E28741A6125C9002ADDEC /* Images.xcassets in Resources */,
 			);
@@ -421,14 +412,13 @@
 				09D31C501A617DC100A1B1E6 /* GenericTableViewCell.m in Sources */,
 				097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */,
 				09D31C411A617DAE00A1B1E6 /* AddressStructured.m in Sources */,
+				04C357591A6197330005554F /* WLProfileViewController.m in Sources */,
 				09D31C4E1A617DC100A1B1E6 /* FIObjectManager.m in Sources */,
-				044DB5F01A615A7D00F8664D /* WLTakeImageView.m in Sources */,
 				09D31C431A617DAE00A1B1E6 /* Location.m in Sources */,
 				09D31C4F1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m in Sources */,
-				044DB5EC1A61593D00F8664D /* WLRegistrationViewController.m in Sources */,
 				097E28661A6125C9002ADDEC /* main.m in Sources */,
 				09D31C421A617DAE00A1B1E6 /* AuthCaptureRequest.m in Sources */,
-				044DB5E21A61579600F8664D /* WLProfileViewController.m in Sources */,
+				04C357521A6185E40005554F /* WLRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +546,7 @@
 				INFOPLIST_FILE = Wala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -567,6 +558,7 @@
 				INFOPLIST_FILE = Wala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
