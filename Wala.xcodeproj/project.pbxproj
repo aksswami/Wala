@@ -169,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				04C3574F1A6185940005554F /* RegisterView */,
+				09D31C831A61B72E00A1B1E6 /* RKObjectManager */,
 				09D31C441A617DC100A1B1E6 /* GenericClass */,
 				09D31C371A617DAE00A1B1E6 /* RKModel */,
 				044DB5DF1A6156AA00F8664D /* ProfileView */,
@@ -187,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				04C3574D1A6182570005554F /* Wala_Text_logo.png */,
+				09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */,
 				09D31C511A617DF700A1B1E6 /* Constant.h */,
 				09D31C521A617DF700A1B1E6 /* Wala-Prefix.pch */,
 				097E28641A6125C9002ADDEC /* Info.plist */,
@@ -561,8 +563,13 @@
 				09D31C4E1A617DC100A1B1E6 /* FIObjectManager.m in Sources */,
 				09D31C7F1A61A04100A1B1E6 /* POI.m in Sources */,
 				09D31C761A6195B300A1B1E6 /* Name.m in Sources */,
+				09D31C821A61A1A600A1B1E6 /* KYCResponse.m in Sources */,
+				044DB5F01A615A7D00F8664D /* WLTakeImageView.m in Sources */,
 				09D31C431A617DAE00A1B1E6 /* Location.m in Sources */,
 				09D31C4F1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m in Sources */,
+				09D31C7A1A6199E600A1B1E6 /* FinalResponse.m in Sources */,
+				044DB5EC1A61593D00F8664D /* WLRegistrationViewController.m in Sources */,
+				09D31C871A61B7D100A1B1E6 /* OTPObjectManager.m in Sources */,
 				097E28661A6125C9002ADDEC /* main.m in Sources */,
 				09D31C731A6195B300A1B1E6 /* AddressFreetext.m in Sources */,
 				09D31C421A617DAE00A1B1E6 /* AuthCaptureRequest.m in Sources */,
