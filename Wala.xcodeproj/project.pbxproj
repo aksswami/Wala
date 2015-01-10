@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097E28661A6125C9002ADDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28651A6125C9002ADDEC /* main.m */; };
+		097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28681A6125C9002ADDEC /* AppDelegate.m */; };
+		097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */; };
+		097E286F1A6125C9002ADDEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E286E1A6125C9002ADDEC /* ViewController.m */; };
+		097E28721A6125C9002ADDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097E28701A6125C9002ADDEC /* Main.storyboard */; };
+		097E28741A6125C9002ADDEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097E28731A6125C9002ADDEC /* Images.xcassets */; };
+		097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097E28751A6125C9002ADDEC /* LaunchScreen.xib */; };
+		097E28831A6125CA002ADDEC /* WalaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28821A6125CA002ADDEC /* WalaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		097E287D1A6125CA002ADDEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097E28581A6125C9002ADDEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097E285F1A6125C9002ADDEC;
+			remoteInfo = Wala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097E28601A6125C9002ADDEC /* Wala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097E28641A6125C9002ADDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097E28651A6125C9002ADDEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		097E28671A6125C9002ADDEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		097E28681A6125C9002ADDEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		097E286B1A6125C9002ADDEC /* Wala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wala.xcdatamodel; sourceTree = "<group>"; };
+		097E286D1A6125C9002ADDEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		097E286E1A6125C9002ADDEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		097E28711A6125C9002ADDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		097E28731A6125C9002ADDEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		097E28761A6125C9002ADDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		097E287C1A6125CA002ADDEC /* WalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097E28811A6125CA002ADDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097E28821A6125CA002ADDEC /* WalaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097E285D1A6125C9002ADDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097E28791A6125CA002ADDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097E28571A6125C9002ADDEC = {
+			isa = PBXGroup;
+			children = (
+				097E28621A6125C9002ADDEC /* Wala */,
+				097E287F1A6125CA002ADDEC /* WalaTests */,
+				097E28611A6125C9002ADDEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		097E28611A6125C9002ADDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				097E28601A6125C9002ADDEC /* Wala.app */,
+				097E287C1A6125CA002ADDEC /* WalaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		097E28621A6125C9002ADDEC /* Wala */ = {
+			isa = PBXGroup;
+			children = (
+				097E28671A6125C9002ADDEC /* AppDelegate.h */,
+				097E28681A6125C9002ADDEC /* AppDelegate.m */,
+				097E286D1A6125C9002ADDEC /* ViewController.h */,
+				097E286E1A6125C9002ADDEC /* ViewController.m */,
+				097E28701A6125C9002ADDEC /* Main.storyboard */,
+				097E28731A6125C9002ADDEC /* Images.xcassets */,
+				097E28751A6125C9002ADDEC /* LaunchScreen.xib */,
+				097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */,
+				097E28631A6125C9002ADDEC /* Supporting Files */,
+			);
+			path = Wala;
+			sourceTree = "<group>";
+		};
+		097E28631A6125C9002ADDEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				097E28641A6125C9002ADDEC /* Info.plist */,
+				097E28651A6125C9002ADDEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		097E287F1A6125CA002ADDEC /* WalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				097E28821A6125CA002ADDEC /* WalaTests.m */,
+				097E28801A6125CA002ADDEC /* Supporting Files */,
+			);
+			path = WalaTests;
+			sourceTree = "<group>";
+		};
+		097E28801A6125CA002ADDEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				097E28811A6125CA002ADDEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097E285F1A6125C9002ADDEC /* Wala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097E28861A6125CA002ADDEC /* Build configuration list for PBXNativeTarget "Wala" */;
+			buildPhases = (
+				097E285C1A6125C9002ADDEC /* Sources */,
+				097E285D1A6125C9002ADDEC /* Frameworks */,
+				097E285E1A6125C9002ADDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wala;
+			productName = Wala;
+			productReference = 097E28601A6125C9002ADDEC /* Wala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		097E287B1A6125CA002ADDEC /* WalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097E28891A6125CA002ADDEC /* Build configuration list for PBXNativeTarget "WalaTests" */;
+			buildPhases = (
+				097E28781A6125CA002ADDEC /* Sources */,
+				097E28791A6125CA002ADDEC /* Frameworks */,
+				097E287A1A6125CA002ADDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097E287E1A6125CA002ADDEC /* PBXTargetDependency */,
+			);
+			name = WalaTests;
+			productName = WalaTests;
+			productReference = 097E287C1A6125CA002ADDEC /* WalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		097E28581A6125C9002ADDEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Amit kumar Swami";
+				TargetAttributes = {
+					097E285F1A6125C9002ADDEC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					097E287B1A6125CA002ADDEC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 097E285F1A6125C9002ADDEC;
+					};
+				};
+			};
+			buildConfigurationList = 097E285B1A6125C9002ADDEC /* Build configuration list for PBXProject "Wala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 097E28571A6125C9002ADDEC;
+			productRefGroup = 097E28611A6125C9002ADDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				097E285F1A6125C9002ADDEC /* Wala */,
+				097E287B1A6125CA002ADDEC /* WalaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097E285E1A6125C9002ADDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E28721A6125C9002ADDEC /* Main.storyboard in Resources */,
+				097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */,
+				097E28741A6125C9002ADDEC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097E287A1A6125CA002ADDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097E285C1A6125C9002ADDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */,
+				097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */,
+				097E286F1A6125C9002ADDEC /* ViewController.m in Sources */,
+				097E28661A6125C9002ADDEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097E28781A6125CA002ADDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E28831A6125CA002ADDEC /* WalaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		097E287E1A6125CA002ADDEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097E285F1A6125C9002ADDEC /* Wala */;
+			targetProxy = 097E287D1A6125CA002ADDEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		097E28701A6125C9002ADDEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097E28711A6125C9002ADDEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		097E28751A6125C9002ADDEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097E28761A6125C9002ADDEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		097E28841A6125CA002ADDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		097E28851A6125CA002ADDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		097E28871A6125CA002ADDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		097E28881A6125CA002ADDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		097E288A1A6125CA002ADDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wala.app/Wala";
+			};
+			name = Debug;
+		};
+		097E288B1A6125CA002ADDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wala.app/Wala";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097E285B1A6125C9002ADDEC /* Build configuration list for PBXProject "Wala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097E28841A6125CA002ADDEC /* Debug */,
+				097E28851A6125CA002ADDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097E28861A6125CA002ADDEC /* Build configuration list for PBXNativeTarget "Wala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097E28871A6125CA002ADDEC /* Debug */,
+				097E28881A6125CA002ADDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		097E28891A6125CA002ADDEC /* Build configuration list for PBXNativeTarget "WalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097E288A1A6125CA002ADDEC /* Debug */,
+				097E288B1A6125CA002ADDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				097E286B1A6125C9002ADDEC /* Wala.xcdatamodel */,
+			);
+			currentVersion = 097E286B1A6125C9002ADDEC /* Wala.xcdatamodel */;
+			path = Wala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 097E28581A6125C9002ADDEC /* Project object */;
+}
