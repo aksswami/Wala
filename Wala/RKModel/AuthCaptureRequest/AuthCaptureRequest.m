@@ -7,6 +7,7 @@
 //abcd
 
 #import "AuthCaptureRequest.h"
+#import "RKRelationshipMapping.h"
 
 @implementation AuthCaptureRequest
 
@@ -40,7 +41,9 @@
     [mapping addAttributeMappingsFromDictionary:[AuthCaptureRequest elementToPropertyMappings]];
     
     // Add some relation mappings (if any.)
-    // [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"loginDetails" toKeyPath:@"loginBeanDetail" withMapping:[LoginDetails loginDetailsMappingRequest]]];
+     [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"demographics" toKeyPath:@"demographics" withMapping:[Demographics demographicMappingRequest]]];
+    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location" withMapping:[Location locationMappingRequest]]];
+    
     
     return mapping;
 }

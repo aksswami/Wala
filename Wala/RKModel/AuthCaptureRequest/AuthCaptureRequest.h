@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "RKObjectMapping.h"
 
+#import "Demographics.h"
+#import "Location.h"
+
 @interface AuthCaptureRequest : NSObject
 
 @property (nonatomic, strong) NSString * aadhaarId;
@@ -19,6 +22,9 @@
 @property (nonatomic, strong) NSString * otp;
 @property (nonatomic, strong) NSString * deviceId;
 @property (nonatomic, strong) NSString * certificateType;
+
+@property (nonatomic, strong) Demographics * demographics;
+@property (nonatomic, strong) Location * location;
 
 
 + (RKObjectMapping *) authCaptureRequestMappingResponse;
