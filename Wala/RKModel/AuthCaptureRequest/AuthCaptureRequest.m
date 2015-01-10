@@ -48,4 +48,32 @@
     return mapping;
 }
 
+//OTP Mapping
+
++ (RKObjectMapping *) otpMappingResponse {
+    // Create an object mapping.
+    RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[AuthCaptureRequest class]];
+    [mapping addAttributeMappingsFromDictionary:[AuthCaptureRequest elementToPropertyMappings]];
+    
+    
+    // Add some relation mappings (if any.)
+    //[mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"loginBeanDetail" toKeyPath:@"loginDetails" withMapping:[LoginDetails loginDetailsMappingResponse]]];
+    
+    return mapping;
+}
+
++ (RKObjectMapping *) otpMappingRequest {
+    // Create an object mapping.
+    RKObjectMapping *mapping = [RKObjectMapping requestMapping];
+    [mapping addAttributeMappingsFromDictionary:[AuthCaptureRequest elementToPropertyMappings]];
+    [mapping addAttributeMappingsFromDictionary:@{@"channel" : @"channel"}];
+    
+    // Add some relation mappings (if any.)
+    
+    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location" withMapping:[Location locationMappingRequest]]];
+    
+    
+    return mapping;
+}
+
 @end

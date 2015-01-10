@@ -23,6 +23,8 @@
 @property (nonatomic, strong) NSString * pinCode;
 @property (nonatomic, strong) NSString * postOffice;
 
+
+
 + (RKObjectMapping *) addressStructuredMappingResponse;
 + (RKObjectMapping *) addressStructuredMappingRequest;
 + (NSDictionary*)elementToPropertyMappings;

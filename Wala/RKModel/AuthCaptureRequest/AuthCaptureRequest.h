@@ -22,6 +22,7 @@
 @property (nonatomic, strong) NSString * otp;
 @property (nonatomic, strong) NSString * deviceId;
 @property (nonatomic, strong) NSString * certificateType;
+@property (nonatomic, strong) NSString * channel;
 
 @property (nonatomic, strong) Demographics * demographics;
 @property (nonatomic, strong) Location * location;
@@ -30,5 +31,10 @@
 + (RKObjectMapping *) authCaptureRequestMappingResponse;
 + (RKObjectMapping *) authCaptureRequestMappingRequest;
 + (NSDictionary*)elementToPropertyMappings;
+
+
+//OTP Request Mapping
++ (RKObjectMapping *) otpMappingResponse;
++ (RKObjectMapping *) otpMappingRequest;
 
 @end
