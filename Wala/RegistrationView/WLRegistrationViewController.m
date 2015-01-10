@@ -8,8 +8,11 @@
 
 #import "WLRegistrationViewController.h"
 #import "XLForm.h"
+#import "UIAlertView+Blocks.h"
 
 @interface WLRegistrationViewController ()
+
+@property(nonatomic , strong)NSString *otp;
 
 @end
 
@@ -130,7 +133,14 @@
 
 -(void)askForOTP
 {
+    NSString *message = @"I hereby give my consent to share my demographic details";
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Aadhaar Verification" message:message cancelButtonItem:[RIButtonItem itemWithLabel:@"Submit" action:^{
+        
+        self.otp = [alert textFieldAtIndex:0].text;
+        
+    }] otherButtonItems: nil] ;
     
+    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
 }
 
 /*
