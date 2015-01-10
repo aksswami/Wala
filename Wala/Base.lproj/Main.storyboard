@@ -15,7 +15,32 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qpj-XP-ZbX">
+                                <rect key="frame" x="170" y="218" width="299" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="SkI-sv-h9g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6N-w9-1mP">
+                                <rect key="frame" x="58" y="299" width="345" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="1CI-nb-Yd9"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qpj-XP-ZbX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="170" id="2ra-JX-1dN"/>
+                            <constraint firstItem="qpj-XP-ZbX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="154" id="Ja4-Ne-5FA"/>
+                            <constraint firstItem="s6N-w9-1mP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="233" id="NVg-Xg-Mps"/>
+                            <constraint firstItem="s6N-w9-1mP" firstAttribute="top" secondItem="qpj-XP-ZbX" secondAttribute="bottom" constant="51" id="qZY-0J-OfO"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7La-UA-DWm"/>
                 </viewController>
