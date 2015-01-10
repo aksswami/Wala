@@ -24,6 +24,11 @@
 		09D31C4E1A617DC100A1B1E6 /* FIObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C471A617DC100A1B1E6 /* FIObjectManager.m */; };
 		09D31C4F1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C4A1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m */; };
 		09D31C501A617DC100A1B1E6 /* GenericTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C4D1A617DC100A1B1E6 /* GenericTableViewCell.m */; };
+		09D31C661A61952800A1B1E6 /* KYCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C651A61952800A1B1E6 /* KYCRequest.m */; };
+		09D31C731A6195B300A1B1E6 /* AddressFreetext.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C6A1A6195B300A1B1E6 /* AddressFreetext.m */; };
+		09D31C741A6195B300A1B1E6 /* Demographics.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C6C1A6195B300A1B1E6 /* Demographics.m */; };
+		09D31C751A6195B300A1B1E6 /* DOB.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C6F1A6195B300A1B1E6 /* DOB.m */; };
+		09D31C761A6195B300A1B1E6 /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C721A6195B300A1B1E6 /* Name.m */; };
 		3E673291B67536B4E32B7CF1 /* libPods-Wala.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C984387457D561BC07C4B4 /* libPods-Wala.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +76,16 @@
 		09D31C4D1A617DC100A1B1E6 /* GenericTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericTableViewCell.m; sourceTree = "<group>"; };
 		09D31C511A617DF700A1B1E6 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		09D31C521A617DF700A1B1E6 /* Wala-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wala-Prefix.pch"; sourceTree = "<group>"; };
+		09D31C641A61952800A1B1E6 /* KYCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYCRequest.h; path = KYCRequest/KYCRequest.h; sourceTree = "<group>"; };
+		09D31C651A61952800A1B1E6 /* KYCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYCRequest.m; path = KYCRequest/KYCRequest.m; sourceTree = "<group>"; };
+		09D31C691A6195B300A1B1E6 /* AddressFreetext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressFreetext.h; sourceTree = "<group>"; };
+		09D31C6A1A6195B300A1B1E6 /* AddressFreetext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressFreetext.m; sourceTree = "<group>"; };
+		09D31C6B1A6195B300A1B1E6 /* Demographics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demographics.h; sourceTree = "<group>"; };
+		09D31C6C1A6195B300A1B1E6 /* Demographics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demographics.m; sourceTree = "<group>"; };
+		09D31C6E1A6195B300A1B1E6 /* DOB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOB.h; sourceTree = "<group>"; };
+		09D31C6F1A6195B300A1B1E6 /* DOB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOB.m; sourceTree = "<group>"; };
+		09D31C711A6195B300A1B1E6 /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
+		09D31C721A6195B300A1B1E6 /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
 		457A3F67C90D9FD5F6047550 /* Pods-Wala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wala/Pods-Wala.release.xcconfig"; sourceTree = "<group>"; };
 		C5C984387457D561BC07C4B4 /* libPods-Wala.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wala.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -183,6 +198,7 @@
 		09D31C371A617DAE00A1B1E6 /* RKModel */ = {
 			isa = PBXGroup;
 			children = (
+				09D31C631A61950800A1B1E6 /* KYCRequest */,
 				09D31C381A617DAE00A1B1E6 /* AuthCaptureRequest */,
 				09D31C3E1A617DAE00A1B1E6 /* Location */,
 			);
@@ -192,6 +208,7 @@
 		09D31C381A617DAE00A1B1E6 /* AuthCaptureRequest */ = {
 			isa = PBXGroup;
 			children = (
+				09D31C671A6195B300A1B1E6 /* Demographics */,
 				09D31C391A617DAE00A1B1E6 /* AddressStructured */,
 				09D31C3C1A617DAE00A1B1E6 /* AuthCaptureRequest.h */,
 				09D31C3D1A617DAE00A1B1E6 /* AuthCaptureRequest.m */,
@@ -252,6 +269,54 @@
 				09D31C4D1A617DC100A1B1E6 /* GenericTableViewCell.m */,
 			);
 			path = GenericTableViewCell;
+			sourceTree = "<group>";
+		};
+		09D31C631A61950800A1B1E6 /* KYCRequest */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C641A61952800A1B1E6 /* KYCRequest.h */,
+				09D31C651A61952800A1B1E6 /* KYCRequest.m */,
+			);
+			name = KYCRequest;
+			sourceTree = "<group>";
+		};
+		09D31C671A6195B300A1B1E6 /* Demographics */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C681A6195B300A1B1E6 /* AddressFreetext */,
+				09D31C6B1A6195B300A1B1E6 /* Demographics.h */,
+				09D31C6C1A6195B300A1B1E6 /* Demographics.m */,
+				09D31C6D1A6195B300A1B1E6 /* DOB */,
+				09D31C701A6195B300A1B1E6 /* Name */,
+			);
+			path = Demographics;
+			sourceTree = "<group>";
+		};
+		09D31C681A6195B300A1B1E6 /* AddressFreetext */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C691A6195B300A1B1E6 /* AddressFreetext.h */,
+				09D31C6A1A6195B300A1B1E6 /* AddressFreetext.m */,
+			);
+			path = AddressFreetext;
+			sourceTree = "<group>";
+		};
+		09D31C6D1A6195B300A1B1E6 /* DOB */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C6E1A6195B300A1B1E6 /* DOB.h */,
+				09D31C6F1A6195B300A1B1E6 /* DOB.m */,
+			);
+			path = DOB;
+			sourceTree = "<group>";
+		};
+		09D31C701A6195B300A1B1E6 /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				09D31C711A6195B300A1B1E6 /* Name.h */,
+				09D31C721A6195B300A1B1E6 /* Name.m */,
+			);
+			path = Name;
 			sourceTree = "<group>";
 		};
 		DF7918B6B321BF8A8C41C445 /* Pods */ = {
@@ -410,6 +475,7 @@
 			files = (
 				097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */,
 				09D31C501A617DC100A1B1E6 /* GenericTableViewCell.m in Sources */,
+				09D31C741A6195B300A1B1E6 /* Demographics.m in Sources */,
 				097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */,
 				09D31C411A617DAE00A1B1E6 /* AddressStructured.m in Sources */,
 				04C357591A6197330005554F /* WLProfileViewController.m in Sources */,
@@ -417,6 +483,7 @@
 				09D31C431A617DAE00A1B1E6 /* Location.m in Sources */,
 				09D31C4F1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m in Sources */,
 				097E28661A6125C9002ADDEC /* main.m in Sources */,
+				09D31C731A6195B300A1B1E6 /* AddressFreetext.m in Sources */,
 				09D31C421A617DAE00A1B1E6 /* AuthCaptureRequest.m in Sources */,
 				04C357521A6185E40005554F /* WLRegisterViewController.m in Sources */,
 			);
