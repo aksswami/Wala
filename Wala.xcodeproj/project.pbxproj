@@ -34,6 +34,7 @@
 		09D31C821A61A1A600A1B1E6 /* KYCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C811A61A1A600A1B1E6 /* KYCResponse.m */; };
 		09D31C871A61B7D100A1B1E6 /* OTPObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C861A61B7D100A1B1E6 /* OTPObjectManager.m */; };
 		09D31C8B1A61BBD800A1B1E6 /* KYCObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D31C8A1A61BBD800A1B1E6 /* KYCObjectManager.m */; };
+		09D31C8D1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */; };
 		3E673291B67536B4E32B7CF1 /* libPods-Wala.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C984387457D561BC07C4B4 /* libPods-Wala.a */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +103,7 @@
 		09D31C861A61B7D100A1B1E6 /* OTPObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTPObjectManager.m; path = RKObjectManager/OTPObjectManager/OTPObjectManager.m; sourceTree = "<group>"; };
 		09D31C891A61BBD800A1B1E6 /* KYCObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYCObjectManager.h; path = RKObjectManager/KYCObjectManager/KYCObjectManager.h; sourceTree = "<group>"; };
 		09D31C8A1A61BBD800A1B1E6 /* KYCObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYCObjectManager.m; path = RKObjectManager/KYCObjectManager/KYCObjectManager.m; sourceTree = "<group>"; };
+		09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ErrorCodeMsg.plist; path = Wala/SupportingFiles/ErrorCodeMsg.plist; sourceTree = SOURCE_ROOT; };
 		457A3F67C90D9FD5F6047550 /* Pods-Wala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wala/Pods-Wala.release.xcconfig"; sourceTree = "<group>"; };
 		C5C984387457D561BC07C4B4 /* libPods-Wala.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wala.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -196,6 +198,7 @@
 		097E28631A6125C9002ADDEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */,
 				09D31C511A617DF700A1B1E6 /* Constant.h */,
 				09D31C521A617DF700A1B1E6 /* Wala-Prefix.pch */,
 				097E28641A6125C9002ADDEC /* Info.plist */,
@@ -502,6 +505,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D31C8D1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist in Resources */,
 				097E28721A6125C9002ADDEC /* Main.storyboard in Resources */,
 				044DB5F21A615A9400F8664D /* TakeImageView.xib in Resources */,
 				097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */,

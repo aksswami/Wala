@@ -34,7 +34,7 @@
     [mapping addAttributeMappingsFromDictionary:[KYCRequest elementToPropertyMappings]];
     
     // Add some relation mappings (if any.)
-    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"auth-capture-request" toKeyPath:@"authCaptureRequest" withMapping:[AuthCaptureRequest authCaptureRequestMappingRequest]]];
+    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"authCaptureRequest" toKeyPath:@"auth-capture-request" withMapping:[AuthCaptureRequest authCaptureRequestMappingRequest]]];
     
     
     return mapping;

@@ -67,7 +67,7 @@ static KYCObjectManager * sharedManager;
 -(void) setupRequestDescriptors {
     [super setupRequestDescriptors];
     
-    RKRequestDescriptor *requestDescriptors = [RKRequestDescriptor requestDescriptorWithMapping:[AuthCaptureRequest authCaptureRequestMappingRequest] objectClass:[AuthCaptureRequest class] rootKeyPath:nil method:RKRequestMethodPOST];
+    RKRequestDescriptor *requestDescriptors = [RKRequestDescriptor requestDescriptorWithMapping:[KYCRequest kycReuqestMappingRequest] objectClass:[KYCRequest class] rootKeyPath:nil method:RKRequestMethodPOST];
     [self addRequestDescriptor:requestDescriptors];
 }
 

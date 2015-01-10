@@ -1,0 +1,197 @@
+<?xml version=1.0 encoding=UTF-8?>
+<!DOCTYPE plist PUBLIC -//Apple//DTD PLIST 1.0//EN http://www.apple.com/DTDs/PropertyList-1.0.dtd>
+<plist version=1.0>
+    <dict>
+        <key>UIDAIError</key>
+        <dict>
+            <key>100</key>
+            <string>Please re-enter your name, lname, gender, dob, dobt, age, phone, email.</string>
+            
+            <key>200</key>
+            <string>Please re-enter your co (care of), house, street, lm (land mark), loc (locality), vtc, subdist, dist, state, pc (postal pin code), po (post office).</string>
+            
+            <key>300</key>
+            <string>Please give your finger prints again.</string>
+            
+            <key>310</key>
+            <string>Please try again with distinct fingers.</string>
+            
+            <key>311</key>
+            <string>Please try again with distinct irises.</string>
+            
+            <key>312</key>
+            <string>Technical Exception</string>
+            
+            <key>313</key>
+            <string>Please try again by placing Single finger on the authentication device.</string>
+            
+            <key>314</key>
+            <string> </string>
+            
+            <key>315</key>
+            <string> </string>
+            
+            <key>400</key>
+            <string>Please provide correct OTP value.</string>
+            
+            <key>401</key>
+            <string> </string>
+            
+            <key>500</key>
+            <string>Technical Exception.</string>
+            
+            <key>501</key>
+            <string>Technical Exception</string>
+            
+            <key>502</key>
+            <string>Technical Exception </string>
+            
+            <key>503</key>
+            <string>Technical Exception</string>
+            
+            <key>504</key>
+            <string>Technical Exception </string>
+            
+            <key>505</key>
+            <string>Technical Exception </string>
+            
+            <key>510</key>
+            <string>Technical Exception </string>
+            
+            <key>511</key>
+            <string>Technical Exception </string>
+            
+            <key>520</key>
+            <string>Technical Exception </string>
+            
+            <key>521</key>
+            <string>Technical Exception </string>
+            
+            <key>522</key>
+            <string>Technical Exception </string>
+            
+            <key>530</key>
+            <string>Technical Exception </string>
+            
+            <key>540</key>
+            <string>Technical Exception </string>
+            
+            <key>541</key>
+            <string>Technical Exception </string>
+            
+            <key>542</key>
+            <string> </string>
+            
+            <key>543</key>
+            <string> </string>
+            
+            <key>550</key>
+            <string>Technical Exception </string>
+            
+            <key>561</key>
+            <string>1.       In case of Device/Client based Application
+                a.       Either device date/time is behind current date/time or request is old. Please try again.
+                2.       In case of web based Application
+                a.       Technical Exception </string>
+            
+            <key>562</key>
+            <string>1.       In case of Device/Client based Application
+                a.       Either device date/time is ahead current date/time or request is old. Please try again.
+                2.       In case of web based Application
+                a.       Technical Exception </string>
+            
+            <key>563</key>
+            <string>Please submit your request again.</string>
+            
+            <key>564</key><string>Technical Exception </string>
+            <key>565</key><string>Technical Exception </string>
+            <key>566</key><string>Technical Exception </string>
+            <key>567</key><string>Technical Exception </string>
+            <key>568</key><string>Technical Exception </string>
+            <key>569</key><string>Technical Exception </string>
+            <key>570</key><string>Technical Exception </string>
+            
+            <key>571</key>
+            <string>Please reset your PIN in UIDAI updation application and use new PIN in this application.</string>
+            
+            <key>572</key><string>Technical Exception </string>
+            <key>573</key><string>Technical Exception </string>
+            <key>574</key><string>Technical Exception </string>
+            <key>575</key><string>Technical Exception </string>
+            <key>576</key><string>Technical Exception </string>
+            <key>577</key><string>Technical Exception </string>
+            <key>578</key><string>Technical Exception </string>
+            <key>579</key><string>Technical Exception </string>
+            <key>580</key><string>Technical Exception </string>
+            <key>581</key><string>Technical Exception </string>
+            <key>582</key><string>Technical Exception </string>
+            <key>584</key><string>Technical Exception </string>
+            <key>585</key><string>Technical Exception </string>
+            <key>710</key><string>Technical Exception </string>
+            <key>720</key><string>Technical Exception </string>
+            <key>721</key><string>Technical Exception </string>
+            <key>730</key><string>Technical Exception </string>
+            <key>740</key><string>Technical Exception </string>
+            <key>800</key><string>Technical Exception </string>
+            <key>810</key><string>Technical Exception </string>
+            
+            <key>811</key
+            ><string>Your Biometric data is not available in CIDR.</string>
+            
+            <key>812</key>
+            <string>You have not done best finger detection so kindly proceed with the BFD process for successful authentication.</string>
+            
+            <key>820</key><string>Technical Exception </string>
+            <key>821</key><string>Technical Exception </string>
+            <key>901</key><string>Technical Exception </string>
+            
+            <key>902</key>
+            <string>Please enter dob in specified date format or enter age in specified range.</string>
+            
+            <key>910</key><string>Technical Exception </string>
+            <key>911</key><string>Technical Exception </string>
+            <key>912</key><string>Technical Exception </string>
+            <key>913</key><string> </string>
+            <key>930-939</key><string>Technical Exception </string>
+            <key>940</key>
+            <string>Technical Exception </string>
+            
+            <key>941</key>
+            <string>Technical Exception </string>
+            
+            <key>980</key>
+            <string>Technical Exception </string>
+            
+            <key>997</key>
+            <string>Your Aadhaar number status is not active. Kindly contact UIDAI Helpline.</string>
+            
+            <key>998</key>
+            <string>Ensure you have entered correct Aadhaar number.  Please retry with correct Aadhaar number after sometime.</string>
+            
+            <key>999</key>
+            <string>Technical Exception/</string>
+            
+            
+            <key>K-100</key><string>Resident authentication failed</string>
+            <key>K-200</key><string>Resident data currently not available</string>
+            <key>K-540</key><string>Invalid KYC XML</string>
+            <key>K-541</key><string>Invalid KYC API version</string>
+            <key>K-542</key><string>Invalid resident consent (“rc” attribute in “Kyc” element)</string>
+            <key>K-543</key><string>Invalid timestamp (“ts” attribute in “Kyc” element)</string>
+            <key>K-544</key><string>Invalid resident auth type (“ra” attribute in “Kyc” element)</string>
+            <key>K-545</key><string>Resident has opted out of this service</string>
+            <key>K-550</key><string>Invalid “Uses” element attributes – must have either bio or otp enabled for resident authentication</string>
+            <key>K-551</key><string>Invalid “Txn” namespace (should be “UKC”)</string>
+            <key>K-552</key><string>Invalid license key</string>
+            <key>K-569</key><string>Digital signature verification failed for KYC XML (means that authentication request XML was modified after it was signed)</string>
+            <key> K-570</key><string>Invalid key info in digital signature for KYC XML (it is either expired, or does not belong to the KUA or is not created by a well known Certification Authority)</string>
+            <key>K-600</key><string>AUA is invalid or not an authorized KUA</string>
+            <key>K-601</key><string>ASA is invalid or not an authorized KSA</string>
+            <key>K-602</key><string>KUA encryption key not available</string>
+            <key>K-603</key><string>KSA encryption key not available</string>
+            <key>K-604</key><string>KSA not allowed to sign</string>
+            <key>K-999</key><string>Unknown error</string>
+            <key>K-955</key><string>Technical error</string>
+        </dict>
+    </dict>
+</plist>

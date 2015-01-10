@@ -17,4 +17,18 @@
 
 
 
+#define AADHAARID @"303101911154"
+#define CHANNEL @"SMS"
+#define CERTIFICATE_TYPE @"preprod"
+#define DEVICE_ID @"ad00191"
+#define LOCATION_TYPE_PINCODE @"pincode"
+#define DUMMY_PINCODE @"560067"
+
+#define CONSENT_YES @"Y"
+#define COSENT_NO @"N"
+
+#define MODALITY_OTP @"otp"
+
+
+
 #endif

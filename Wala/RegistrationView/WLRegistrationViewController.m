@@ -10,7 +10,9 @@
 #import "XLForm.h"
 
 #import "OTPObjectManager.h"
+#import "KYCObjectManager.h"
 @interface WLRegistrationViewController ()
+@property (nonatomic, strong) NSDictionary * errorCodeAndMsg;
 
 @end
 
@@ -19,7 +21,8 @@
     [super viewDidLoad];
     
     [self initializeSection];
-    [self askForOTP];
+    //[self askForOTP];
+    [self askForKYC];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -134,20 +137,23 @@
 -(void)askForOTP
 {
     AuthCaptureRequest * authCaptureRequest = [[AuthCaptureRequest alloc]init];
-    authCaptureRequest.aadhaarId = @"303101911154";
-    authCaptureRequest.certificateType = @"preprod";
-    authCaptureRequest.channel = @"SMS";
-    authCaptureRequest.deviceId = @"ad00191";
+    authCaptureRequest.aadhaarId = AADHAARID;
+    authCaptureRequest.certificateType = CERTIFICATE_TYPE;
+    authCaptureRequest.channel = CHANNEL;
+    authCaptureRequest.deviceId = DEVICE_ID;
     
     
     Location * location = [[Location alloc]init];
-    location.type = @"pincode";
-    location.pincode = @"560067";
+    location.type = LOCATION_TYPE_PINCODE;
+    location.pincode = DUMMY_PINCODE;
     
     authCaptureRequest.location = location;
     
     [[OTPObjectManager sharedManager] otpSendRequest:authCaptureRequest andCompletionBlock:^(FinalResponse * finalResponse){
-        NSLog(@"OTP Sent %@", finalResponse);
+        if(!finalResponse.success){
+            [self showErrorDialog:finalResponse.aadhaarStatusCode];
+        }
+        NSLog(@"OTP Sent %@", finalResponse.description);
     }failure:^(RKObjectRequestOperation *requestOperation, NSError *error){
         NSLog(@"OTP ERROR %@", error.localizedDescription);
     }];
@@ -155,6 +161,49 @@
     
 }
 
+-(void) askForKYC {
+    KYCRequest * kycRequest = [[KYCRequest alloc]init];
+    kycRequest.consent = CONSENT_YES;
+    
+    AuthCaptureRequest * authCaptureRequest = [[AuthCaptureRequest alloc]init];
+    kycRequest.authCaptureRequest = authCaptureRequest;
+    authCaptureRequest.aadhaarId = AADHAARID;
+    
+    Location * location = [[Location alloc]init];
+    authCaptureRequest.location = location;
+    location.type = LOCATION_TYPE_PINCODE;
+    location.pincode = DUMMY_PINCODE;
+    
+    authCaptureRequest.modality = MODALITY_OTP;
+    authCaptureRequest.certificateType = CERTIFICATE_TYPE;
+    authCaptureRequest.otp = @"";
+    
+    [[KYCObjectManager sharedManager] getKYCDetailsRequest:kycRequest andCompletionBlock:^(FinalResponse * finalResponse){
+        NSLog(@"KYC RECEIVED %@", finalResponse.description);
+        if(!finalResponse.success)
+            [self showErrorDialog:finalResponse.aadhaarStatusCode];
+    }failure:^(RKObjectRequestOperation *requestOperation, NSError *error){
+        NSLog(@"KYC ERROR %@", error.localizedDescription);
+    }];
+}
+
+
+- (void) showErrorDialog: (NSString *) errorCode{
+    //Load Dictionary with wood name cross refference values for image name
+    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"ErrorCodeMsg" ofType:@"plist"];
+    NSDictionary *creatureDictionary = [[NSDictionary alloc] initWithContentsOfFile:plistCatPath];
+    
+    self.errorCodeAndMsg = creatureDictionary[@"UIDAIError"];
+    
+    [[[UIAlertView alloc] initWithTitle:@"Error in Authentication"
+                                message:[self.errorCodeAndMsg objectForKey:errorCode]
+                       cancelButtonItem:[RIButtonItem itemWithLabel:@"Ok" action:^{
+        [self.navigationController popViewControllerAnimated:YES];
+    }]
+                       otherButtonItems: nil] show];
+    
+    
+}
 /*
 #pragma mark - Navigation
 
