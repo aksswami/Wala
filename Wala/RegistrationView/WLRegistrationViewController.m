@@ -9,6 +9,7 @@
 #import "WLRegistrationViewController.h"
 #import "XLForm.h"
 
+#import "OTPObjectManager.h"
 @interface WLRegistrationViewController ()
 
 @end
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     
     [self initializeSection];
+    [self askForOTP];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,7 +32,8 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self initializeForm];
+        //
+        //[self initializeForm];
     }
     return self;
 }
@@ -130,6 +133,25 @@
 
 -(void)askForOTP
 {
+    AuthCaptureRequest * authCaptureRequest = [[AuthCaptureRequest alloc]init];
+    authCaptureRequest.aadhaarId = @"303101911154";
+    authCaptureRequest.certificateType = @"preprod";
+    authCaptureRequest.channel = @"SMS";
+    authCaptureRequest.deviceId = @"ad00191";
+    
+    
+    Location * location = [[Location alloc]init];
+    location.type = @"pincode";
+    location.pincode = @"560067";
+    
+    authCaptureRequest.location = location;
+    
+    [[OTPObjectManager sharedManager] otpSendRequest:authCaptureRequest andCompletionBlock:^(FinalResponse * finalResponse){
+        NSLog(@"OTP Sent %@", finalResponse);
+    }failure:^(RKObjectRequestOperation *requestOperation, NSError *error){
+        NSLog(@"OTP ERROR %@", error.localizedDescription);
+    }];
+
     
 }
 

@@ -21,7 +21,6 @@
 #import "MRProgress.h"
 #import "GenericTableViewCell.h"
 #import "UIAlertView+Blocks.h"
-#import "FIApplicationUtils.h"
 
 #endif
 

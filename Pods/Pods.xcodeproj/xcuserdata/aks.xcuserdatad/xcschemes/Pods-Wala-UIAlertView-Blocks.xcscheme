@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3AB9CDA7CE8F2A0D93268BA2"
+               BlueprintIdentifier = "366BCF483EE5E558AFCB97DF"
                BuildableName = "libPods-Wala-UIAlertView-Blocks.a"
                BlueprintName = "Pods-Wala-UIAlertView-Blocks"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -13,14 +13,14 @@
 
 + (NSDictionary*)elementToPropertyMappings {
     return @{
-             @"aadhaar-id" : @"aadhaarId",
+             @"aadhaarId" : @"aadhaar-id",
              @"modality" : @"modality",
-             @"modality-type" : @"modalityType",
-             @"number-of-fingers-to-capture" : @"numberOfFingersToCapture",
-             @"number-of-iris-to-capture" : @"numberOfIrisToCapture",
+             @"modalityType" :@"modality-type",
+             @"numberOfFingersToCapture" : @"number-of-fingers-to-capture",
+             @"numberOfIrisToCapture" :@"number-of-iris-to-capture",
              @"otp" : @"otp",
-             @"device-id" : @"deviceId",
-             @"certificate-type" : @"certificateType"
+             @"deviceId" : @"device-id" ,
+             @"certificateType" :@"certificate-type" 
              };
 }
 

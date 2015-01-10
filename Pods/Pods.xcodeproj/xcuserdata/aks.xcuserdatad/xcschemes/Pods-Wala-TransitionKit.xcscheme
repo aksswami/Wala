@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE1538E5712218DA2F2FC552"
+               BlueprintIdentifier = "DDDDAFA45ECDB13A22DDEC57"
                BuildableName = "libPods-Wala-TransitionKit.a"
                BlueprintName = "Pods-Wala-TransitionKit"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -7,14 +7,15 @@
 //
 
 #import "KYCResponse.h"
+#import "AddressStructured.h"
 
 @implementation KYCResponse
 
 + (NSDictionary*)elementToPropertyMappings {
     return @{
-             @"aadhaar-id" : @"aadhaarId",
+             @"aadhaarId" : @"aadhaar-id",
              @"photo" : @"photo",
-             @"local-data" : @"localData"
+             @"localData" : @"local-data"
              };
 }
 
@@ -24,7 +25,8 @@
     [mapping addAttributeMappingsFromDictionary:[KYCResponse elementToPropertyMappings]];
     
     // Add some relation mappings (if any.)
-    //[mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"loginBeanDetail" toKeyPath:@"loginDetails" withMapping:[LoginDetails loginDetailsMappingResponse]]];
+    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"poi" toKeyPath:@"poi" withMapping:[POI poiMappingResponse]]];
+    [mapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"poa" toKeyPath:@"poa" withMapping:[AddressStructured addressStructuredMappingResponse]]];
     
     return mapping;
 }

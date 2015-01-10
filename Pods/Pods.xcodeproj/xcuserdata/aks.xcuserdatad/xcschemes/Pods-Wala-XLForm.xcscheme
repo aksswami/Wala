@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "501C4DFABABACA97295601E7"
+               BlueprintIdentifier = "F8ED14BB989C8E022DB5A80D"
                BuildableName = "libPods-Wala-XLForm.a"
                BlueprintName = "Pods-Wala-XLForm"
                ReferencedContainer = "container:Pods.xcodeproj">

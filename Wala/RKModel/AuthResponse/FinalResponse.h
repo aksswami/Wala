@@ -15,7 +15,7 @@
 @interface FinalResponse : NSObject
 
 @property (nonatomic, strong) NSString * aadhaarId;
-@property (nonatomic, strong) NSString * success;
+@property (nonatomic) BOOL success;
 @property (nonatomic, strong) NSString * aadhaarStatusCode;
 @property (nonatomic, strong) NSString * aadhaarReferenceCode;
 

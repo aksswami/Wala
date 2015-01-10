@@ -13,10 +13,10 @@
 
 + (NSDictionary*)elementToPropertyMappings {
     return @{
-             @"aadhaar-id" : @"aadhaarId",
+             @"aadhaarId" : @"aadhaar-id",
              @"success" : @"success",
-             @"aadhaar-status-code" : @"aadhaarStatusCode",
-             @"aadhaar-reference-code" : @"aadhaarReferenceCode"
+             @"aadhaarStatusCode" :@"aadhaar-status-code",
+             @"aadhaarReferenceCode" : @"aadhaar-reference-code" 
              };
 }
 

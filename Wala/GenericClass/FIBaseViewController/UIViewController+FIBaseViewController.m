@@ -10,7 +10,7 @@
 
 @implementation UIViewController (FIBaseViewController)
 
-//- (void) failureAlertCheckWithError:(NSError*) error {
+- (void) failureAlertCheckWithError:(NSError*) error {
 //    [MRProgressOverlayView dismissOverlayForView:self.view animated:YES];
 //    [[[UIAlertView alloc] initWithTitle:(error).localizedDescription
 //                                message:(error).localizedFailureReason
@@ -23,6 +23,6 @@
 //    }]
 //                       otherButtonItems: nil] show];
 //    NSLog(@"Error : %@",[(error) localizedDescription]);
-//}
+}
 
 @end

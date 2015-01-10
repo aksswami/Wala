@@ -12,7 +12,7 @@
 
 #define BASE_URL @"https://ac.khoslalabs.com/hackgate/hackteam18"
 
-#define OTP_URL "@/otp"
+#define OTP_URL @"/otp"
 #define KYC_URL @"/kyc/raw"
 
 
