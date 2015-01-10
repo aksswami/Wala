@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MagicalRecord/CoreData+MagicalRecord.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Wala-LocalDatabase.db"];
+    
+    //NSLog(@"Context Core Data %@", context);
+    if(getenv("NSZombieEnabled")) {
+        NSLog(@"*** WARNING *** NSZombieEnabled !!!");
+    }
+
     return YES;
 }
 
