@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Amit kumar Swami. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface WLProfileViewController : ViewController
+@interface WLProfileViewController : UIViewController
 
 @end
