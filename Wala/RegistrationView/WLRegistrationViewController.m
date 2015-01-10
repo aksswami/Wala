@@ -40,7 +40,7 @@
 
 -(void)initializeForm
 {
-    XLFormDescriptor *form = [XLFormDescriptor formDescriptorWithTitle:@""];
+    XLFormDescriptor *form = [XLFormDescriptor formDescriptorWithTitle:@"Register"];
     self.form = form;
 }
 
@@ -48,67 +48,76 @@
 {
     XLFormSectionDescriptor *section = [XLFormSectionDescriptor formSectionWithTitle:@""];
     //Aadhar Id
-    XLFormRowDescriptor *row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    XLFormRowDescriptor *row = [XLFormRowDescriptor formRowDescriptorWithTag:@"aadhaarIDTag" rowType:XLFormRowDescriptorTypeText title:@"Aadhar ID"];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //First Name
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"FirstNameTag" rowType:XLFormRowDescriptorTypeText title:@"First Name"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //Middle Name
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"MiddleNameTag" rowType:XLFormRowDescriptorTypeText title:@"Middle Name"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //Last Name
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"LastNameTag" rowType:XLFormRowDescriptorTypeText title:@"Last Name"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //Gender
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:
-           XLFormRowDescriptorTypeSelectorActionSheet title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"GenderTag" rowType:
+           XLFormRowDescriptorTypeSelectorActionSheet title:@"Gender"];
     NSMutableArray *optionsArray = [[NSMutableArray alloc]init];
     
     //Male
-    XLFormOptionsObject *options = [XLFormOptionsObject formOptionsObjectWithValue:@(0) displayText:@""];
+    XLFormOptionsObject *options = [XLFormOptionsObject formOptionsObjectWithValue:@(0) displayText:@"Male"];
     [optionsArray addObject:options];
     
     //Female
-    options = [XLFormOptionsObject formOptionsObjectWithValue:@(1) displayText:@""];
+    options = [XLFormOptionsObject formOptionsObjectWithValue:@(1) displayText:@"Female"];
     [optionsArray addObject:options];
     
     //Transgender
-    options = [XLFormOptionsObject formOptionsObjectWithValue:@(1) displayText:@""];
+    options = [XLFormOptionsObject formOptionsObjectWithValue:@(1) displayText:@"Transgender"];
     [optionsArray addObject:options];
     
     row.selectorOptions = optionsArray;
     [section addFormRow:row];
     
     //Date of Birth
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeDate title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"DateofBirthTag" rowType:XLFormRowDescriptorTypeDate title:@"Date of Birth"];
     row.value = [NSDate date];
     [section addFormRow:row];
     
     //Mobile
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypePhone title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"MobileTag" rowType:XLFormRowDescriptorTypePhone title:@"Mobile"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //Address
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"AddressTag" rowType:XLFormRowDescriptorTypeText title:@"Address"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
-    //Zip
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    //Postal Code
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"PostalCodeTag" rowType:XLFormRowDescriptorTypeText title:@"Postal Code"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //City
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"CityTag" rowType:XLFormRowDescriptorTypeText title:@"City"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //State
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeText title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"StateTag" rowType:XLFormRowDescriptorTypeText title:@"State"];
     [section addFormRow:row];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     
     //Continue Button
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"" rowType:XLFormRowDescriptorTypeButton title:@""];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"CreateProfileTag" rowType:XLFormRowDescriptorTypeButton title:@"Create Profile"];
     [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     row.action.formBlock = ^(XLFormRowDescriptor *row)
     {
