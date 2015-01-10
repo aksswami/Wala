@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093E62371A614A3500950C30 /* FIObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E62301A614A3400950C30 /* FIObjectManager.m */; };
-		093E62381A614A3500950C30 /* UIViewController+FIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E62331A614A3400950C30 /* UIViewController+FIBaseViewController.m */; };
-		093E62391A614A3500950C30 /* GenericTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E62361A614A3500950C30 /* GenericTableViewCell.m */; };
-		093E623E1A61526A00950C30 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E623D1A61526A00950C30 /* Location.m */; };
-		093E62421A61561500950C30 /* AuthCaptureRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E62411A61561500950C30 /* AuthCaptureRequest.m */; };
-		093E62461A61591400950C30 /* AddressStructured.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E62451A61591400950C30 /* AddressStructured.m */; };
+		044DB5E21A61579600F8664D /* WLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5E11A61579600F8664D /* WLProfileViewController.m */; };
+		044DB5EC1A61593D00F8664D /* WLRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5EB1A61593D00F8664D /* WLRegistrationViewController.m */; };
+		044DB5F01A615A7D00F8664D /* WLTakeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5EF1A615A7D00F8664D /* WLTakeImageView.m */; };
+		044DB5F21A615A9400F8664D /* TakeImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044DB5F11A615A9400F8664D /* TakeImageView.xib */; };
 		097E28661A6125C9002ADDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28651A6125C9002ADDEC /* main.m */; };
 		097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28681A6125C9002ADDEC /* AppDelegate.m */; };
 		097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */; };
-		097E286F1A6125C9002ADDEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E286E1A6125C9002ADDEC /* ViewController.m */; };
 		097E28721A6125C9002ADDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097E28701A6125C9002ADDEC /* Main.storyboard */; };
 		097E28741A6125C9002ADDEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097E28731A6125C9002ADDEC /* Images.xcassets */; };
 		097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097E28751A6125C9002ADDEC /* LaunchScreen.xib */; };
@@ -35,20 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		093E622B1A6147B700950C30 /* Wala-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Wala-Prefix.pch"; sourceTree = "<group>"; };
-		093E622C1A61485400950C30 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		093E622F1A614A3400950C30 /* FIObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIObjectManager.h; sourceTree = "<group>"; };
-		093E62301A614A3400950C30 /* FIObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIObjectManager.m; sourceTree = "<group>"; };
-		093E62321A614A3400950C30 /* UIViewController+FIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FIBaseViewController.h"; sourceTree = "<group>"; };
-		093E62331A614A3400950C30 /* UIViewController+FIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FIBaseViewController.m"; sourceTree = "<group>"; };
-		093E62351A614A3500950C30 /* GenericTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericTableViewCell.h; sourceTree = "<group>"; };
-		093E62361A614A3500950C30 /* GenericTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericTableViewCell.m; sourceTree = "<group>"; };
-		093E623C1A61526A00950C30 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = RKModel/Location/Location.h; sourceTree = "<group>"; };
-		093E623D1A61526A00950C30 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = RKModel/Location/Location.m; sourceTree = "<group>"; };
-		093E62401A61561500950C30 /* AuthCaptureRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthCaptureRequest.h; path = RKModel/AuthCaptureRequest/AuthCaptureRequest.h; sourceTree = "<group>"; };
-		093E62411A61561500950C30 /* AuthCaptureRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthCaptureRequest.m; path = RKModel/AuthCaptureRequest/AuthCaptureRequest.m; sourceTree = "<group>"; };
-		093E62441A61591400950C30 /* AddressStructured.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressStructured.h; path = RKModel/AuthCaptureRequest/AddressStructured/AddressStructured.h; sourceTree = "<group>"; };
-		093E62451A61591400950C30 /* AddressStructured.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressStructured.m; path = RKModel/AuthCaptureRequest/AddressStructured/AddressStructured.m; sourceTree = "<group>"; };
+		044DB5E01A61579600F8664D /* WLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLProfileViewController.h; path = ProfileView/WLProfileViewController.h; sourceTree = "<group>"; };
+		044DB5E11A61579600F8664D /* WLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLProfileViewController.m; path = ProfileView/WLProfileViewController.m; sourceTree = "<group>"; };
+		044DB5EA1A61593D00F8664D /* WLRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLRegistrationViewController.h; path = RegistrationView/WLRegistrationViewController.h; sourceTree = "<group>"; };
+		044DB5EB1A61593D00F8664D /* WLRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLRegistrationViewController.m; path = RegistrationView/WLRegistrationViewController.m; sourceTree = "<group>"; };
+		044DB5EE1A615A7D00F8664D /* WLTakeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLTakeImageView.h; path = RegistrationView/TakeImageView/WLTakeImageView.h; sourceTree = "<group>"; };
+		044DB5EF1A615A7D00F8664D /* WLTakeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLTakeImageView.m; path = RegistrationView/TakeImageView/WLTakeImageView.m; sourceTree = "<group>"; };
+		044DB5F11A615A9400F8664D /* TakeImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeImageView.xib; sourceTree = "<group>"; };
 		0959D258FAFADC6D5E35ECD9 /* Pods-Wala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wala/Pods-Wala.debug.xcconfig"; sourceTree = "<group>"; };
 		097E28601A6125C9002ADDEC /* Wala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097E28641A6125C9002ADDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,8 +46,6 @@
 		097E28671A6125C9002ADDEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		097E28681A6125C9002ADDEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		097E286B1A6125C9002ADDEC /* Wala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wala.xcdatamodel; sourceTree = "<group>"; };
-		097E286D1A6125C9002ADDEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		097E286E1A6125C9002ADDEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		097E28711A6125C9002ADDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		097E28731A6125C9002ADDEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		097E28761A6125C9002ADDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -87,78 +75,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		093E622D1A614A3400950C30 /* GenericClass */ = {
+		044DB5DF1A6156AA00F8664D /* ProfileView */ = {
 			isa = PBXGroup;
 			children = (
-				093E622E1A614A3400950C30 /* BaseWebService */,
-				093E62311A614A3400950C30 /* FIBaseViewController */,
-				093E62341A614A3500950C30 /* GenericTableViewCell */,
+				044DB5E01A61579600F8664D /* WLProfileViewController.h */,
+				044DB5E11A61579600F8664D /* WLProfileViewController.m */,
 			);
-			path = GenericClass;
+			name = ProfileView;
 			sourceTree = "<group>";
 		};
-		093E622E1A614A3400950C30 /* BaseWebService */ = {
+		044DB5E91A6158DB00F8664D /* RegistrationView */ = {
 			isa = PBXGroup;
 			children = (
-				093E622F1A614A3400950C30 /* FIObjectManager.h */,
-				093E62301A614A3400950C30 /* FIObjectManager.m */,
+				044DB5ED1A615A4000F8664D /* TakeImageView */,
+				044DB5EA1A61593D00F8664D /* WLRegistrationViewController.h */,
+				044DB5EB1A61593D00F8664D /* WLRegistrationViewController.m */,
 			);
-			path = BaseWebService;
+			name = RegistrationView;
 			sourceTree = "<group>";
 		};
-		093E62311A614A3400950C30 /* FIBaseViewController */ = {
+		044DB5ED1A615A4000F8664D /* TakeImageView */ = {
 			isa = PBXGroup;
 			children = (
-				093E62321A614A3400950C30 /* UIViewController+FIBaseViewController.h */,
-				093E62331A614A3400950C30 /* UIViewController+FIBaseViewController.m */,
+				044DB5EE1A615A7D00F8664D /* WLTakeImageView.h */,
+				044DB5EF1A615A7D00F8664D /* WLTakeImageView.m */,
+				044DB5F11A615A9400F8664D /* TakeImageView.xib */,
 			);
-			path = FIBaseViewController;
-			sourceTree = "<group>";
-		};
-		093E62341A614A3500950C30 /* GenericTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				093E62351A614A3500950C30 /* GenericTableViewCell.h */,
-				093E62361A614A3500950C30 /* GenericTableViewCell.m */,
-			);
-			path = GenericTableViewCell;
-			sourceTree = "<group>";
-		};
-		093E623A1A614A4500950C30 /* RKModel */ = {
-			isa = PBXGroup;
-			children = (
-				093E623F1A6155FC00950C30 /* AuthCaptureRequest */,
-				093E623B1A61524900950C30 /* Location */,
-			);
-			name = RKModel;
-			sourceTree = "<group>";
-		};
-		093E623B1A61524900950C30 /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				093E623C1A61526A00950C30 /* Location.h */,
-				093E623D1A61526A00950C30 /* Location.m */,
-			);
-			name = Location;
-			sourceTree = "<group>";
-		};
-		093E623F1A6155FC00950C30 /* AuthCaptureRequest */ = {
-			isa = PBXGroup;
-			children = (
-				093E62431A6158DB00950C30 /* AddressStructured */,
-				093E62401A61561500950C30 /* AuthCaptureRequest.h */,
-				093E62411A61561500950C30 /* AuthCaptureRequest.m */,
-			);
-			name = AuthCaptureRequest;
-			sourceTree = "<group>";
-		};
-		093E62431A6158DB00950C30 /* AddressStructured */ = {
-			isa = PBXGroup;
-			children = (
-				093E62441A61591400950C30 /* AddressStructured.h */,
-				093E62451A61591400950C30 /* AddressStructured.m */,
-			);
-			name = AddressStructured;
+			name = TakeImageView;
 			sourceTree = "<group>";
 		};
 		097E28571A6125C9002ADDEC = {
@@ -184,16 +127,14 @@
 		097E28621A6125C9002ADDEC /* Wala */ = {
 			isa = PBXGroup;
 			children = (
-				093E623A1A614A4500950C30 /* RKModel */,
+				044DB5E91A6158DB00F8664D /* RegistrationView */,
+				044DB5DF1A6156AA00F8664D /* ProfileView */,
 				097E28671A6125C9002ADDEC /* AppDelegate.h */,
 				097E28681A6125C9002ADDEC /* AppDelegate.m */,
-				097E286D1A6125C9002ADDEC /* ViewController.h */,
-				097E286E1A6125C9002ADDEC /* ViewController.m */,
 				097E28701A6125C9002ADDEC /* Main.storyboard */,
 				097E28731A6125C9002ADDEC /* Images.xcassets */,
 				097E28751A6125C9002ADDEC /* LaunchScreen.xib */,
 				097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */,
-				093E622D1A614A3400950C30 /* GenericClass */,
 				097E28631A6125C9002ADDEC /* Supporting Files */,
 			);
 			path = Wala;
@@ -204,8 +145,6 @@
 			children = (
 				097E28641A6125C9002ADDEC /* Info.plist */,
 				097E28651A6125C9002ADDEC /* main.m */,
-				093E622B1A6147B700950C30 /* Wala-Prefix.pch */,
-				093E622C1A61485400950C30 /* Constant.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -327,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				097E28721A6125C9002ADDEC /* Main.storyboard in Resources */,
+				044DB5F21A615A9400F8664D /* TakeImageView.xib in Resources */,
 				097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */,
 				097E28741A6125C9002ADDEC /* Images.xcassets in Resources */,
 			);
@@ -381,14 +321,10 @@
 			files = (
 				097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */,
 				097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */,
-				097E286F1A6125C9002ADDEC /* ViewController.m in Sources */,
-				093E62461A61591400950C30 /* AddressStructured.m in Sources */,
-				093E62421A61561500950C30 /* AuthCaptureRequest.m in Sources */,
-				093E62391A614A3500950C30 /* GenericTableViewCell.m in Sources */,
-				093E62381A614A3500950C30 /* UIViewController+FIBaseViewController.m in Sources */,
-				093E62371A614A3500950C30 /* FIObjectManager.m in Sources */,
-				093E623E1A61526A00950C30 /* Location.m in Sources */,
+				044DB5F01A615A7D00F8664D /* WLTakeImageView.m in Sources */,
+				044DB5EC1A61593D00F8664D /* WLRegistrationViewController.m in Sources */,
 				097E28661A6125C9002ADDEC /* main.m in Sources */,
+				044DB5E21A61579600F8664D /* WLProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
