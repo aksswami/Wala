@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ShopProfileViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *shopImageView;
 
 @end
