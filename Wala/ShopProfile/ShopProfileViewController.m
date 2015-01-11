@@ -18,6 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.shopImageView.layer.cornerRadius = self.shopImageView.frame.size.height /2;
+    self.shopImageView.layer.masksToBounds = YES;
+    self.shopImageView.layer.borderWidth = 0;
+
     // Do any additional setup after loading the view.
 }
 

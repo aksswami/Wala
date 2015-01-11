@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9A162A39-1035-4D1D-82E4-9C4865940677</string>
+	<string>E50B00A3-FDAC-4DAB-BBEE-376E7FF677D3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Wala</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B3B4BAFDCCDD440A3D7D926DEFD42969284CCC7</key>
-		<string>https://github.com/aksswami/Wala</string>
+		<string>https://github.com/aksswami/Wala.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Wala.xcworkspace</string>
@@ -21,7 +21,7 @@
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/aksswami/Wala</string>
+	<string>https://github.com/aksswami/Wala.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
