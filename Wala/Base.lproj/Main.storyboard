@@ -217,10 +217,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXP-g1-mtd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXP-g1-mtd">
                                 <rect key="frame" x="227" y="72" width="146" height="135"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upload your shop's photo." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0j-ze-edl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Upload your shop's photo." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0j-ze-edl">
                                 <rect key="frame" x="93" y="215" width="415" height="51"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -229,7 +229,7 @@
                                     <rect key="frame" x="196" y="215" width="230" height="35"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Shop Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-KW-fKV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Shop Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-KW-fKV">
                                 <rect key="frame" x="252" y="285" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -237,7 +237,7 @@
                                     <rect key="frame" x="252" y="283" width="97" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Employment Type" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F9k-iE-caf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Employment Type" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F9k-iE-caf">
                                 <rect key="frame" x="252" y="411" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -245,7 +245,7 @@
                                     <rect key="frame" x="252" y="411" width="136" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Phone Number" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NPd-x6-lFZ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Phone Number" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NPd-x6-lFZ">
                                 <rect key="frame" x="252" y="475" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -288,7 +288,7 @@
                                     <rect key="frame" x="219" y="630" width="162" height="30"/>
                                 </variation>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Business Category" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-M4-o5P">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Business Category" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-M4-o5P">
                                 <rect key="frame" x="252" y="341" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -314,14 +314,14 @@
                                 <exclude reference="597-ls-xfK"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="03a-y9-ygf"/>
+                                <exclude reference="KbN-YY-4WE"/>
+                                <exclude reference="zQj-7l-IRt"/>
                                 <exclude reference="jf3-RW-C0I"/>
+                                <exclude reference="03a-y9-ygf"/>
                                 <exclude reference="TX0-WW-sHC"/>
                                 <exclude reference="19B-F7-hXZ"/>
                                 <exclude reference="5dK-Nb-Re7"/>
                                 <exclude reference="4XS-Yo-eMm"/>
-                                <exclude reference="KbN-YY-4WE"/>
-                                <exclude reference="zQj-7l-IRt"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -330,14 +330,14 @@
                                 <include reference="597-ls-xfK"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="03a-y9-ygf"/>
+                                <include reference="KbN-YY-4WE"/>
+                                <include reference="zQj-7l-IRt"/>
                                 <include reference="jf3-RW-C0I"/>
+                                <include reference="03a-y9-ygf"/>
                                 <include reference="TX0-WW-sHC"/>
                                 <include reference="19B-F7-hXZ"/>
                                 <include reference="5dK-Nb-Re7"/>
                                 <include reference="4XS-Yo-eMm"/>
-                                <include reference="KbN-YY-4WE"/>
-                                <include reference="zQj-7l-IRt"/>
                             </mask>
                         </variation>
                     </view>
