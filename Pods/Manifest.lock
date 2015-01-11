@@ -4,15 +4,15 @@ PODS:
     - RKValueTransformers (~> 1.1.0)
   - JVFloatLabeledTextField (0.0.9)
   - MagicalRecord (2.2):
-    - MagicalRecord/Core
+    - MagicalRecord/Core (= 2.2)
   - MagicalRecord/Core (2.2)
   - MRProgress (0.8.1):
-    - MRProgress/ActivityIndicator
-    - MRProgress/Blur
-    - MRProgress/Circular
-    - MRProgress/Icons
-    - MRProgress/NavigationBarProgress
-    - MRProgress/Overlay
+    - MRProgress/ActivityIndicator (= 0.8.1)
+    - MRProgress/Blur (= 0.8.1)
+    - MRProgress/Circular (= 0.8.1)
+    - MRProgress/Icons (= 0.8.1)
+    - MRProgress/NavigationBarProgress (= 0.8.1)
+    - MRProgress/Overlay (= 0.8.1)
   - MRProgress/ActivityIndicator (0.8.1):
     - MRProgress/Stopable
   - MRProgress/Blur (0.8.1):
@@ -35,7 +35,7 @@ PODS:
   - MRProgress/Stopable (0.8.1):
     - MRProgress/Helper
   - RestKit (0.24.0):
-    - RestKit/Core
+    - RestKit/Core (= 0.24.0)
   - RestKit/Core (0.24.0):
     - RestKit/CoreData
     - RestKit/Network
@@ -80,4 +80,4 @@ SPEC CHECKSUMS:
   UIAlertView-Blocks: f3271e84372beb97aea115cd1fb26ae66457f12f
   XLForm: 7d6855fe88df37b44ea00da80cc0cf3a945cfb1b
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0

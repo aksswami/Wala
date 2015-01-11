@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CDKYCResponse" syncable="YES">
+        <attribute name="aadhaarId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aadhaarReferenceCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="poa" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDPOA" inverseName="kycResponse" inverseEntity="CDPOA" syncable="YES"/>
+        <relationship name="poi" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDPOI" inverseName="kycResponse" inverseEntity="CDPOI" syncable="YES"/>
+    </entity>
+    <entity name="CDPOA" syncable="YES">
+        <attribute name="careOf" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="district" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="house" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postOffice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subdistrict" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vtc" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kycResponse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDKYCResponse" inverseName="poa" inverseEntity="CDKYCResponse" syncable="YES"/>
+    </entity>
+    <entity name="CDPOI" syncable="YES">
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kycResponse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDKYCResponse" inverseName="poi" inverseEntity="CDKYCResponse" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDKYCResponse" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="CDPOI" positionX="-54" positionY="18" width="128" height="103"/>
+        <element name="CDPOA" positionX="-36" positionY="45" width="128" height="223"/>
+    </elements>
 </model>

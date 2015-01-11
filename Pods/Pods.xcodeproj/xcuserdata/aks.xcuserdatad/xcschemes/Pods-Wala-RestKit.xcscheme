@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "999454802A4872F20F7B58C1"
+               BlueprintIdentifier = "AE25DE52C8A012780A1453C3"
                BuildableName = "libPods-Wala-RestKit.a"
                BlueprintName = "Pods-Wala-RestKit"
                ReferencedContainer = "container:Pods.xcodeproj">

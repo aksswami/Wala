@@ -70,7 +70,7 @@
     row.selectorOptions = @[
                             @"SUBJI",
                             @"KIRANA",
-                            @"ELECTRICIAN"
+                            @"ELECTRICIAN",
                             @"PLUMBER",
                             @"CHEMIST"
                             ];
