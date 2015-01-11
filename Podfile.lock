@@ -2,16 +2,17 @@ PODS:
   - AFNetworking (1.3.4)
   - ISO8601DateFormatterValueTransformer (0.6.0):
     - RKValueTransformers (~> 1.1.0)
+  - JVFloatLabeledTextField (0.0.9)
   - MagicalRecord (2.2):
-    - MagicalRecord/Core (= 2.2)
+    - MagicalRecord/Core
   - MagicalRecord/Core (2.2)
   - MRProgress (0.8.1):
-    - MRProgress/ActivityIndicator (= 0.8.1)
-    - MRProgress/Blur (= 0.8.1)
-    - MRProgress/Circular (= 0.8.1)
-    - MRProgress/Icons (= 0.8.1)
-    - MRProgress/NavigationBarProgress (= 0.8.1)
-    - MRProgress/Overlay (= 0.8.1)
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Icons
+    - MRProgress/NavigationBarProgress
+    - MRProgress/Overlay
   - MRProgress/ActivityIndicator (0.8.1):
     - MRProgress/Stopable
   - MRProgress/Blur (0.8.1):
@@ -34,7 +35,7 @@ PODS:
   - MRProgress/Stopable (0.8.1):
     - MRProgress/Helper
   - RestKit (0.24.0):
-    - RestKit/Core (= 0.24.0)
+    - RestKit/Core
   - RestKit/Core (0.24.0):
     - RestKit/CoreData
     - RestKit/Network
@@ -59,6 +60,7 @@ PODS:
   - XLForm (2.1.0)
 
 DEPENDENCIES:
+  - JVFloatLabeledTextField (~> 0.0)
   - MagicalRecord
   - MRProgress (~> 0.8.0)
   - RestKit (~> 0.24.0)
@@ -68,6 +70,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
   ISO8601DateFormatterValueTransformer: a705384ea6531255258e25b6480ba1180db703a0
+  JVFloatLabeledTextField: b6c7d824d231b3c01d14692feada878808480af8
   MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
   MRProgress: cd12726e001ea25dec133322d34cc4754cbc58f8
   RestKit: 8e301e50e1d25ce427215539f4fd72463f4a2a58
@@ -77,4 +80,4 @@ SPEC CHECKSUMS:
   UIAlertView-Blocks: f3271e84372beb97aea115cd1fb26ae66457f12f
   XLForm: 7d6855fe88df37b44ea00da80cc0cf3a945cfb1b
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.34.4
