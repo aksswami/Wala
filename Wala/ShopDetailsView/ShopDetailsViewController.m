@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initializeSections];
+    [self.navigationItem setTitle:@"More Details"];
+
     // Do any additional setup after loading the view.
 }
 

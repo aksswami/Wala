@@ -109,6 +109,9 @@
 }
 
 - (UIImage *)decodeBase64ToImage:(NSString *)strEncodeData {
+    if(!strEncodeData){
+        return nil;
+    }
     NSData *data = [[NSData alloc]initWithBase64EncodedString:strEncodeData options:NSDataBase64DecodingIgnoreUnknownCharacters];
     return [UIImage imageWithData:data];
 }

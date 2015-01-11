@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.navigationItem setTitle:@"Add New Shop"];
     self.shopImageView.layer.cornerRadius = self.shopImageView.frame.size.height /2;
     self.shopImageView.layer.masksToBounds = YES;
     self.shopImageView.layer.borderWidth = 0;

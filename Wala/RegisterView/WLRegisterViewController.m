@@ -23,6 +23,7 @@
 
 @interface WLRegisterViewController ()
 @property (nonatomic,strong) NSDictionary *errorCodeAndMsg;
+@property (nonatomic, strong) UIAlertView * alertView;
 @end
 
 @implementation WLRegisterViewController
@@ -43,7 +44,7 @@
     
     //Trigger Service
     [MRProgressOverlayView showOverlayAddedTo:self.view animated:YES];
-    [self askForOTP];
+    [self askForOTP:self.aadhaarTextBox.text];
     
     
     
@@ -70,10 +71,10 @@
 
 #pragma mark -
 #pragma mark - OTP web service methods
--(void)askForOTP
+-(void)askForOTP:(NSString *)aadhaarID
 {
     AuthCaptureRequest * authCaptureRequest = [[AuthCaptureRequest alloc]init];
-    authCaptureRequest.aadhaarId = AADHAARID;
+    authCaptureRequest.aadhaarId = aadhaarID;
     authCaptureRequest.certificateType = CERTIFICATE_TYPE;
     authCaptureRequest.channel = CHANNEL;
     authCaptureRequest.deviceId = DEVICE_ID;
@@ -107,15 +108,15 @@
     NSString *title = @"Please enter the OTP sent to your Aadhaar registered mobile.";
     NSString *message = @"I hereby give my consent to share my demographic details.";
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message cancelButtonItem:[RIButtonItem itemWithLabel:@"Submit" action:^{
+    self.alertView = [[UIAlertView alloc] initWithTitle:title message:message cancelButtonItem:[RIButtonItem itemWithLabel:@"Submit" action:^{
         
         //trigger Web Service
-        [self askForKYC:[alert textFieldAtIndex:0].text];
+        [self askForKYC:[self.alertView textFieldAtIndex:0].text forAadhaarID:self.aadhaarTextBox.text];
         
     }] otherButtonItems: nil] ;
     
-    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
-    [alert show];
+    self.alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
+    [self.alertView show];
 }
 
 - (void) showErrorDialog: (NSString *) errorCode{
@@ -128,7 +129,7 @@
     [[[UIAlertView alloc] initWithTitle:@"Error in Authentication"
                                 message:[self.errorCodeAndMsg objectForKey:errorCode]
                        cancelButtonItem:[RIButtonItem itemWithLabel:@"OK" action:^{
-        [self performSegueWithIdentifier:PROFILE_SEGUE_IDENTIFIER sender:nil];
+        //[self performSegueWithIdentifier:PROFILE_SEGUE_IDENTIFIER sender:nil];
     }]
                        otherButtonItems: nil] show];
     
@@ -138,14 +139,14 @@
 #pragma mark -
 #pragma mark - KYC web service methods
 
--(void) askForKYC:(NSString *)otp {
+-(void) askForKYC:(NSString *)otp forAadhaarID:(NSString *)aadhaarID{
     [MRProgressOverlayView showOverlayAddedTo:self.view animated:YES];
     KYCRequest * kycRequest = [[KYCRequest alloc]init];
     kycRequest.consent = CONSENT_YES;
     
     AuthCaptureRequest * authCaptureRequest = [[AuthCaptureRequest alloc]init];
     kycRequest.authCaptureRequest = authCaptureRequest;
-    authCaptureRequest.aadhaarId = AADHAARID;
+    authCaptureRequest.aadhaarId = aadhaarID;
     
     Location * location = [[Location alloc]init];
     authCaptureRequest.location = location;
@@ -162,6 +163,7 @@
         
         if(!finalResponse.success){
             [self showErrorDialog:finalResponse.aadhaarStatusCode];
+            
             
         }
         else
@@ -182,9 +184,9 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     
-    //FinalResponse *responseObject = (FinalResponse *)sender;
+    FinalResponse *responseObject = (FinalResponse *)sender;
     
-    FinalResponse *responseObject = [self setUpDummyData];
+    //FinalResponse *responseObject = [self setUpDummyData];
     
     WLProfileViewController *profileVC = [segue destinationViewController];
     profileVC.kycResponse = responseObject.kyc;
