@@ -9,6 +9,8 @@
 #import "ShopDetailsViewController.h"
 #import "XLForm.h"
 
+#define SHOP_PROFILE_SEGUE @"shopProfileSegue"
+
 
 @interface ShopDetailsViewController ()
 
@@ -82,7 +84,7 @@
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"newShopTag" rowType:XLFormRowDescriptorTypeButton title:@"Is your shop not listed? Click to Add Shop"];
     row.action.formBlock = ^(XLFormRowDescriptor *row)
     {
-        [self performSegueWithIdentifier:@"" sender:nil];
+        [self performSegueWithIdentifier:SHOP_PROFILE_SEGUE sender:nil];
     };
     
     [section addFormRow:row];
