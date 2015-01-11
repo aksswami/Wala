@@ -30,6 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.errorCodeAndMsg = [[NSDictionary alloc]init];
+    self.aadhaarTextBox.delegate = self;
     // Do any additional setup after loading the view.
 }
 
@@ -46,6 +47,24 @@
     
     
     
+}
+
+#pragma mark
+#pragma mark - TextFieldDelegateMethod
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return YES;
+}
+
+// It is important for you to hide kwyboard
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[self view] endEditing:YES];
 }
 
 

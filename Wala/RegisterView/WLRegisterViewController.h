@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JVFloatLabeledTextField.h"
 
-@interface WLRegisterViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *aadhaarTextBox;
+@interface WLRegisterViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet JVFloatLabeledTextField *aadhaarTextBox;
 
 @end

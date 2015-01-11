@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453BD4F1A621CEA00BF3527 /* ShopDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453BD4E1A621CEA00BF3527 /* ShopDetailsViewController.m */; };
 		04C3574E1A6182570005554F /* Wala_Text_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C3574D1A6182570005554F /* Wala_Text_logo.png */; };
 		04C357521A6185E40005554F /* WLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357511A6185E40005554F /* WLRegisterViewController.m */; };
 		04C357591A6197330005554F /* WLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357581A6197330005554F /* WLProfileViewController.m */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0453BD4D1A621CEA00BF3527 /* ShopDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopDetailsViewController.h; path = ShopDetailsView/ShopDetailsViewController.h; sourceTree = "<group>"; };
+		0453BD4E1A621CEA00BF3527 /* ShopDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopDetailsViewController.m; path = ShopDetailsView/ShopDetailsViewController.m; sourceTree = "<group>"; };
 		04C3574D1A6182570005554F /* Wala_Text_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wala_Text_logo.png; sourceTree = "<group>"; };
 		04C357501A6185E40005554F /* WLRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLRegisterViewController.h; path = RegisterView/WLRegisterViewController.h; sourceTree = "<group>"; };
 		04C357511A6185E40005554F /* WLRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLRegisterViewController.m; path = RegisterView/WLRegisterViewController.m; sourceTree = "<group>"; };
@@ -136,6 +139,15 @@
 			name = ProfileView;
 			sourceTree = "<group>";
 		};
+		0453BD4C1A621CB400BF3527 /* ShopDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				0453BD4D1A621CEA00BF3527 /* ShopDetailsViewController.h */,
+				0453BD4E1A621CEA00BF3527 /* ShopDetailsViewController.m */,
+			);
+			name = ShopDetailsView;
+			sourceTree = "<group>";
+		};
 		04C3574F1A6185940005554F /* RegisterView */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +180,7 @@
 		097E28621A6125C9002ADDEC /* Wala */ = {
 			isa = PBXGroup;
 			children = (
+				0453BD4C1A621CB400BF3527 /* ShopDetailsView */,
 				04C3574F1A6185940005554F /* RegisterView */,
 				09D31C831A61B72E00A1B1E6 /* RKObjectManager */,
 				09D31C441A617DC100A1B1E6 /* GenericClass */,
@@ -560,6 +573,7 @@
 				09D31C751A6195B300A1B1E6 /* DOB.m in Sources */,
 				09D31C8B1A61BBD800A1B1E6 /* KYCObjectManager.m in Sources */,
 				09D31C661A61952800A1B1E6 /* KYCRequest.m in Sources */,
+				0453BD4F1A621CEA00BF3527 /* ShopDetailsViewController.m in Sources */,
 				09D31C4E1A617DC100A1B1E6 /* FIObjectManager.m in Sources */,
 				09D31C7F1A61A04100A1B1E6 /* POI.m in Sources */,
 				09D31C761A6195B300A1B1E6 /* Name.m in Sources */,
