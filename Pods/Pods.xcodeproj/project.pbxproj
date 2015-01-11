@@ -144,18 +144,16 @@
 		</dict>
 		<key>024521B3CFCA6B5DC15BDD3C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
 			<string>MRProgressView.m</string>
 			<key>path</key>
 			<string>src/Components/MRProgressView.m</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>028354A3142831DFED477171</key>
 		<dict>
@@ -237,7 +235,7 @@
 				<string>YES</string>
 			</dict>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
@@ -314,6 +312,11 @@
 			<string>CC22056C94A1B9F815CA6B71</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>05BF7F663026D18FEDC6BB79</key>
 		<dict>
@@ -349,8 +352,12 @@
 		</dict>
 		<key>062B1C77DB6DB6E0E280B4C3</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4D7B10EB321D455CC8FF0DB6</string>
+			</array>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -384,12 +391,21 @@
 		</dict>
 		<key>076710963DB2BF08F473295C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>EA1A087475EE1BE35EB994C8</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>063C977574BBB132E54566E5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4289B11677D328F40EA0D18D</string>
+				<string>7FB745D9A5D10ADF610AE6CF</string>
+				<string>6DB12B6FF3AA901FDD4E8F05</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>UIImage+MRImageEffects.m</string>
 			<key>path</key>
@@ -542,18 +558,23 @@
 		</dict>
 		<key>09D1FA5D540D075D0D15D7EC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
 			<string>AFHTTPRequestOperation.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFHTTPRequestOperation.m</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>07031AD8B908AC196925275B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C35805B2B45760777C47C78E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>09F53B17BEE2631CC19EFE06</key>
 		<dict>
@@ -661,6 +682,11 @@
 			<string>E0DD4B93E554D2EDD8AB8CD7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>0B30D7847EBADF79B11D50CF</key>
 		<dict>
@@ -767,9 +793,24 @@
 				<string>34A651942841BC86F2A2DD6D</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
+		</dict>
+		<key>0BBF173F116650D6AFC424F1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>70524D48B22B7C8321485DB9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>0BA50F6AF4BEE4D24152D0B7</key>
 		<dict>
@@ -823,7 +864,11 @@
 			<key>fileRef</key>
 			<string>D13515D9B55FCF79BE2D0452</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Wala-MRProgress.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>0DB55BA294E0201AB486B87E</key>
 		<dict>
@@ -877,12 +922,15 @@
 		</dict>
 		<key>0F620535265D63B6CDA299A0</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>134A00BDD4B83A101476198A</string>
+				<string>36D6CC21869FAED6EE5D19C1</string>
+				<string>6D025B501CE5EF7BCCEA5CD6</string>
+				<string>4BD5919ECA2D50273A8DF9BA</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>RKDictionaryUtilities.h</string>
 			<key>path</key>
@@ -899,7 +947,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>1033D62D76CCCF467BB6CA3D</key>
@@ -981,11 +1029,6 @@
 			<string>61449E8845BB1DDF59A48F11</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>12407A54710EE27663466353</key>
 		<dict>
@@ -1266,8 +1309,6 @@
 		</dict>
 		<key>15A93EBCD24FFAC8E1A60B3A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1298,11 +1339,87 @@
 			<string>C79E53B320398212B0C2B4A0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
+		</dict>
+		<key>18CE23151A63F0FD58A74994</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ISO8601DateFormatterValueTransformer.m</string>
+			<key>path</key>
+			<string>Code/ISO8601DateFormatterValueTransformer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18D997F13DEBDA2EC08A8B84</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D0DE43243557CBFE63D8D784</string>
+				<string>0CD740350EE52749029F3E20</string>
+				<string>6CA475FBB5D89D1D4797024E</string>
+				<string>AA3A4BB96226F0203418D505</string>
+				<string>4FEEDD7BD4D0B8E534289A97</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>19C4AF62F82704B90D6CCAA2</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>42698531307D6ED4F6ABBCE8</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Wala-MagicalRecord/Pods-Wala-MagicalRecord-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>176D843F3C24399496BA81F0</key>
 		<dict>
@@ -1310,11 +1427,6 @@
 			<string>B37A4EE1FEC558E17D93A672</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>178EAA1CE5AFE15B17C7A785</key>
 		<dict>
@@ -1340,7 +1452,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>1811025F0EB363FBBE443675</key>
@@ -1394,7 +1506,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>RKMappingOperation.h</string>
 			<key>path</key>
@@ -1493,12 +1605,15 @@
 			<key>fileRef</key>
 			<string>E6C945591EFC2C3E50F70180</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RKNSJSONSerialization.h</string>
+			<key>path</key>
+			<string>Code/Support/RKNSJSONSerialization.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1BCF3C398DCDA4F30410AD7F</key>
 		<dict>
@@ -1522,7 +1637,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>NSManagedObject+MagicalDataImport.h</string>
 			<key>path</key>
@@ -1532,8 +1647,8 @@
 		</dict>
 		<key>1C1F2454BDDB57BFE45F202D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>57AAE98F0E78AB8B477F1B17</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1547,8 +1662,8 @@
 		</dict>
 		<key>1DE7A5255E9A9C09B62AC99F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>C583251BFE688F7B9E417B08</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1562,8 +1677,8 @@
 		</dict>
 		<key>1E751750C298D1FC5E5D8007</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>FED37F7C0D9B8A137C4CF8E2</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1741,8 +1856,10 @@
 		</dict>
 		<key>21650ECFF32B753AA5ABB483</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1752,7 +1869,7 @@
 			<key>path</key>
 			<string>src/Components/MRProgressOverlayView.h</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>2186B30A57CC4A21DA0EC2B9</key>
 		<dict>
@@ -1775,11 +1892,6 @@
 			<string>D2373438439B752046DA7E65</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>21BCBAC7AF0BC0CDC089627B</key>
 		<dict>
@@ -1878,7 +1990,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>lcl_RK.h</string>
 			<key>path</key>
@@ -2174,6 +2286,8 @@
 		</dict>
 		<key>29A12CF0576195379A996FE2</key>
 		<dict>
+			<key>fileRef</key>
+			<string>D172D7FCE327E63A32015DFA</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -2293,12 +2407,8 @@
 		</dict>
 		<key>2CD56B57E0A20B520670E337</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
 			<string>RKOperationStateMachine.m</string>
 			<key>path</key>
@@ -2327,6 +2437,11 @@
 			<string>6B7FD8B3C3C5220B9BC03CED</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>2E797A2517AB8C660A75F3C5</key>
 		<dict>
@@ -2378,7 +2493,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>302BEC0C649F0ED5DCAF612E</key>
@@ -2405,7 +2520,15 @@
 			<key>defaultConfigurationName</key>
 			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MagicalRecord+ErrorHandling.h</string>
+			<key>path</key>
+			<string>MagicalRecord/Core/MagicalRecord+ErrorHandling.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>304A2AB94E40DE38E8CACC0D</key>
 		<dict>
@@ -2462,7 +2585,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>3129256DFB7E93B42CE78057</key>
@@ -2548,7 +2671,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>34645A7C019CFD67879905DB</key>
@@ -2558,7 +2681,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MRActivityIndicatorView.m</string>
 			<key>path</key>
@@ -2654,7 +2777,9 @@
 			<key>fileRef</key>
 			<string>479B98C5857B28968C4BD0A0</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>35BA7CBAEA97A35FE5868B1B</key>
 		<dict>
@@ -2757,7 +2882,15 @@
 			<key>fileRef</key>
 			<string>F1F66C9D5D5ECB8C96BAA305</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RKRelationshipMapping.h</string>
+			<key>path</key>
+			<string>Code/ObjectMapping/RKRelationshipMapping.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>388D7E4333A50EB48333912E</key>
 		<dict>
@@ -2807,7 +2940,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>RKEntityCache.h</string>
 			<key>path</key>
@@ -2924,7 +3057,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>NSManagedObjectContext+MagicalObserving.m</string>
 			<key>path</key>
@@ -3137,7 +3270,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>41E488B2ABC4BA79B17681D3</key>
@@ -3218,7 +3351,9 @@
 				<string>2B8D19958FE7F39AE281A033</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>Network</string>
 			<key>sourceTree</key>
@@ -3420,6 +3555,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFURLConnectionOperation.h</string>
 			<key>path</key>
 			<string>Pods-Wala-RKValueTransformers-prefix.pch</string>
 			<key>sourceTree</key>
@@ -3527,12 +3664,39 @@
 		</dict>
 		<key>479B98C5857B28968C4BD0A0</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>6E359AB423FB98E4E4AB8535</string>
+				<string>F59453AC5CA2633D059282C5</string>
+				<string>39D39EAB511129FF9B1D132F</string>
+				<string>8ABF40B4F78DE8214E010B40</string>
+				<string>5004E2B23B1F8D56BA09D7FC</string>
+				<string>5D6A2BD7941F1CC396D4BF00</string>
+				<string>4D0BA286B057555D1EA6F64A</string>
+				<string>EBA953CF58F79E26BC0AA556</string>
+				<string>4D7AEB5088F02F03738E7F19</string>
+				<string>76E4727A38EC71C222B2D6DA</string>
+				<string>F6E672287798BF4CC5F5BDCA</string>
+				<string>5916723DE4C607E823BD6E88</string>
+				<string>7D1A973614CEB0E3A6955638</string>
+				<string>FED37F7C0D9B8A137C4CF8E2</string>
+				<string>9649ECE5DC4EE4E0F83FE099</string>
+				<string>E3B71FB14AB794E673832EF8</string>
+				<string>964459E71FD2757719C9DFCE</string>
+				<string>0B7765C7417C76109667801E</string>
+				<string>A93A194580E133DCD14CF409</string>
+				<string>851776337A62714DE4221763</string>
+				<string>BB4FABA6E2450DB800E2306D</string>
+				<string>7CB5D9F66D51C3327D9E6DEE</string>
+				<string>93D3E0A0F5F84233C12A23CE</string>
+				<string>FCFB3D6E11F7230BEB5A12CE</string>
+				<string>7A98D9D2D29B1A4DAB3FBE0D</string>
+				<string>321249FC4A0C6E1AAE1A6D08</string>
+				<string>CA606E078D1FB9251B898E62</string>
+				<string>0963CEBB04DD8D6BA77B3087</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>RKMacros.h</string>
 			<key>path</key>
@@ -3547,7 +3711,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIImageView+AFNetworking.m</string>
 			<key>path</key>
@@ -3584,7 +3748,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>49268666380C032E34C47589</key>
@@ -3701,7 +3865,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MRStopButton.h</string>
 			<key>path</key>
@@ -3878,8 +4042,6 @@
 		</dict>
 		<key>4E815CCA01AAB4A1A46FF213</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -4014,7 +4176,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>RKEntityMapping.h</string>
 			<key>path</key>
@@ -4080,12 +4242,51 @@
 		</dict>
 		<key>5196493428C6B87B7F5D1B3A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>DC95D81536AB38102D21149E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Wala-TransitionKit/Pods-Wala-TransitionKit-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>RKRequestDescriptor.m</string>
 			<key>path</key>
@@ -4305,8 +4506,6 @@
 		</dict>
 		<key>553E07D50C96F44E4EA87744</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -4316,7 +4515,7 @@
 			<key>path</key>
 			<string>XLForm/XL/Descriptors/XLFormDescriptor.h</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>553EF0E20A48C373846345BB</key>
 		<dict>
@@ -4445,7 +4644,15 @@
 			<key>fileRef</key>
 			<string>3925B55A98C0ADF7D5C0DF8B</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TKStateMachine.m</string>
+			<key>path</key>
+			<string>Code/TKStateMachine.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>58F5DD717CFACC33C14F7187</key>
 		<dict>
@@ -4471,7 +4678,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>59775C964A4633E1189422EE</key>
@@ -4562,8 +4769,8 @@
 		</dict>
 		<key>5D8D7D98DE1FB6364C89C5E9</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>5CB95A266283062B5217FBF7</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -4705,11 +4912,11 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormSelectorCell.h</string>
+			<string>XLFormOptionsObject.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSelectorCell.h</string>
+			<string>XLForm/XL/Controllers/XLFormOptionsObject.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4741,8 +4948,10 @@
 		</dict>
 		<key>607932B75C50AF926843E57A</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -4868,9 +5077,13 @@
 				<string>BDA0460C75533EAD7B70221A</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Wala-AFNetworking.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>61AEE0F4567AC3E34958C977</key>
 		<dict>
@@ -5135,6 +5348,10 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>66C025CF4882661721E47F95</key>
 		<dict>
@@ -5145,8 +5362,10 @@
 		</dict>
 		<key>66C99FAE8B54F1554CF98C20</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -5154,7 +5373,7 @@
 			<key>path</key>
 			<string>Pods-Wala-XLForm-prefix.pch</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>66D92942317A7D2DE8AFB1D5</key>
 		<dict>
@@ -5197,7 +5416,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>67E0C36AEB139F04F92280DF</key>
@@ -5232,11 +5451,9 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RKManagedObjectCaching.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Code/CoreData/RKManagedObjectCaching.h</string>
+			<string>Pods-Wala-UIAlertView-Blocks.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5348,6 +5565,11 @@
 			<string>14EA2DE1B5E041F43127FAAC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>6B35EA741578BAB073EE3AFB</key>
 		<dict>
@@ -5398,7 +5620,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>6C66279FF5A9BF27F18E0795</key>
@@ -5569,12 +5791,51 @@
 		</dict>
 		<key>6E6AACAD4CCDCA4C4FE137B5</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>8D45BDD689014A65D22F2EC4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Wala-UIAlertView-Blocks/Pods-Wala-UIAlertView-Blocks-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>RKPathMatcher.m</string>
 			<key>path</key>
@@ -5807,12 +6068,33 @@
 		</dict>
 		<key>725451586B387E9829BE42D1</key>
 		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>35EB75A605E9D407A9C84462</string>
+				<string>2DDBAE63AB09C8FA6FA9C8CA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7F16C3C394F10C461847E047</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B102EAB114DB9AF112CB9F16</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FB745D9A5D10ADF610AE6CF</key>
+		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>RKISO8601DateFormatter.h</string>
 			<key>path</key>
@@ -5892,8 +6174,8 @@
 		</dict>
 		<key>74670A8DF9A166ACB1745B37</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>F07EDEEA6B6316B5DDEBC5BD</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -6068,8 +6350,8 @@
 		</dict>
 		<key>7745B4B2EA8155C28FBFD231</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>A93A194580E133DCD14CF409</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -6092,7 +6374,7 @@
 				<string>260AE75EAFE7D9BEEEFD038D</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
 			<string>RestKit</string>
 			<key>path</key>
@@ -6129,7 +6411,9 @@
 			<key>fileRef</key>
 			<string>0229C80AA685AFF5708D2DF5</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>7A0E6E9D5AACAF0DAE0488DD</key>
 		<dict>
@@ -6168,7 +6452,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>7A82B5F0EFE57E9ACEF1EC28</key>
@@ -6214,6 +6498,11 @@
 			<string>1BCF3C398DCDA4F30410AD7F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>7A9D60850C3EA0067E74195C</key>
 		<dict>
@@ -6247,7 +6536,15 @@
 			<key>fileRef</key>
 			<string>93FBC7E4CEA292B3EF12C4EC</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Wala-XLForm</string>
+			<key>productName</key>
+			<string>Pods-Wala-XLForm</string>
+			<key>productReference</key>
+			<string>0B7AC6C377A56EC3C8EF0D0B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>7B99AB56F476FDAF461D16EB</key>
 		<dict>
@@ -6295,7 +6592,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKLog.m</string>
 			<key>path</key>
@@ -6358,11 +6655,74 @@
 			<string>26A18DAAB1BDA562D84A2A44</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
+		</dict>
+		<key>8EFC22236927F5AD59DDCB81</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1F69C12E608AB1E461EA8F6C</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Wala-SOCKit/Pods-Wala-SOCKit-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>902C3814331D5B4D9E87520E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7906996953ABC26EE8869C59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>903A00A4B520328FC6640F88</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Wala-JVFloatLabeledTextField</string>
+			<key>target</key>
+			<string>FB162EB81E51615858D39695</string>
+			<key>targetProxy</key>
+			<string>0A6B13AA94F6121750525E3B</string>
 		</dict>
 		<key>7E2A9C957A29375E7C3AD80E</key>
 		<dict>
@@ -6526,7 +6886,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>836C577C74F62EDEADB06DB7</key>
@@ -6577,8 +6937,10 @@
 		</dict>
 		<key>846D1F030CE37F7DB47D2BD4</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -6588,7 +6950,7 @@
 			<key>path</key>
 			<string>XLForm/XL/XLForm.m</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>85A7FC9A0FFADAA6DE7EB04A</key>
 		<dict>
@@ -6649,7 +7011,15 @@
 			<key>fileRef</key>
 			<string>D4A216DD5B31C5C5984F00DB</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AFHTTPRequestOperation.h</string>
+			<key>path</key>
+			<string>AFNetworking/AFHTTPRequestOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>87655666938AF28135BFB856</key>
 		<dict>
@@ -6658,7 +7028,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKPathUtilities.m</string>
 			<key>path</key>
@@ -6721,8 +7091,13 @@
 		</dict>
 		<key>87D425FB68525E52D981BE36</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>3FFA1D5E3058D145378BE5E4</string>
+				<string>138EB3E1FE38D9A62B46D9E5</string>
+				<string>4AA7CD211E0B17544A5A40BE</string>
+				<string>A4075D4AA57B268A105F08D1</string>
+			</array>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -6841,7 +7216,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>XLFormSwitchCell.h</string>
 			<key>path</key>
@@ -7011,13 +7386,15 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text</string>
 			<key>name</key>
 			<string>RKObjectUtilities.h</string>
 			<key>path</key>
 			<string>Code/ObjectMapping/RKObjectUtilities.h</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
 		</dict>
 		<key>8D0E83E0FAD875B4D52033C9</key>
 		<dict>
@@ -7041,6 +7418,11 @@
 			<string>D8C6928C643BC69B539FBF14</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>8F152BCE4DEE5BA42100394F</key>
 		<dict>
@@ -7049,7 +7431,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MRProgressHelper.h</string>
 			<key>path</key>
@@ -7062,7 +7444,13 @@
 			<key>fileRef</key>
 			<string>0D2B83896BD1C50938C04C96</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Wala-AFNetworking-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>90D318CA02796265BF039F5D</key>
 		<dict>
@@ -7073,7 +7461,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>90F2DF88EE729A5AFBEA2AB9</key>
@@ -7131,7 +7519,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKObjectMapping.m</string>
 			<key>path</key>
@@ -7232,8 +7620,8 @@
 		</dict>
 		<key>93FBC7E4CEA292B3EF12C4EC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>4D25B5724C2C209A923A4335</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7299,8 +7687,15 @@
 		</dict>
 		<key>951F3D865344F1E365B28A39</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0393AAD8FF09222874EF9CE9</string>
+				<string>BCF671FD6FB7A8B40555F2E1</string>
+				<string>55B27CA98A3CD8720D118006</string>
+				<string>31B530E55E1E4C562FFB3E54</string>
+			</array>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7351,8 +7746,8 @@
 		</dict>
 		<key>963F98CE34C393A63803D70D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>D6FF5075142B2593D2D4E8F2</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7366,8 +7761,6 @@
 		</dict>
 		<key>964FA11BC25053688EB1E23B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7398,6 +7791,11 @@
 			<string>EBDE75A2024408BC07A1E848</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>96E4FD7FE93380EA2659D867</key>
 		<dict>
@@ -7428,8 +7826,8 @@
 		</dict>
 		<key>97CDE26B20D471618A9D26A6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>BDDB615AD8F8EEB173B692AE</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7512,8 +7910,8 @@
 		</dict>
 		<key>9924CB495CD37B615AABDC6B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>3B2F0311C0A6D8B08FD5A0D1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7534,7 +7932,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>99F5EFDC3A661E7AC3CA0AB3</key>
@@ -7560,11 +7958,6 @@
 			<string>D4266723D8B167809C4D38EF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>9B716ADE15279E1296EA661D</key>
 		<dict>
@@ -7587,8 +7980,10 @@
 		</dict>
 		<key>9B9F2658B9770F03B04B87D2</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7598,7 +7993,7 @@
 			<key>path</key>
 			<string>XLForm/XL/Cell/XLFormLeftRightSelectorCell.m</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>9BA71494B128507A02459C8A</key>
 		<dict>
@@ -7692,7 +8087,7 @@
 			<key>path</key>
 			<string>Code/Support/lcl_config_components_RK.h</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>9DE7AE287D84D607D99FC8BB</key>
 		<dict>
@@ -7756,19 +8151,22 @@
 			<key>fileRef</key>
 			<string>2CD56B57E0A20B520670E337</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AFNetworking</string>
+			<key>path</key>
+			<string>AFNetworking</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9F00E78150ED5441518428D0</key>
 		<dict>
 			<key>fileRef</key>
 			<string>60B309B798364B56DAAB9D9C</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>9F19C869A066C7BEC9CC470E</key>
 		<dict>
@@ -7776,11 +8174,6 @@
 			<string>4135F66928994CA7C34C7CEC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>9F864D7EB88B1C4472882019</key>
 		<dict>
@@ -7788,6 +8181,11 @@
 			<string>62DCF8751752FDA7288D8EB7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>9FD97B2C81EE341AD2200788</key>
 		<dict>
@@ -7898,7 +8296,7 @@
 			<key>name</key>
 			<string>CoreData</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>A2046922B08DF317EBABA86C</key>
 		<dict>
@@ -7949,7 +8347,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKObjectMappingOperationDataSource.m</string>
 			<key>path</key>
@@ -8034,7 +8432,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>XLFormCheckCell.h</string>
 			<key>path</key>
@@ -8320,7 +8718,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MagicalRecord+iCloud.h</string>
 			<key>path</key>
@@ -8511,7 +8909,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>XLFormValidator.m</string>
 			<key>path</key>
@@ -8595,11 +8993,6 @@
 			<string>47580B08052F5277E647286A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>B4C03C6FA4483B9C53929E6B</key>
 		<dict>
@@ -8608,7 +9001,9 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MRProgressHelper.h</string>
 			<key>path</key>
 			<string>Pods-Wala-XLForm-dummy.m</string>
 			<key>sourceTree</key>
@@ -8665,12 +9060,15 @@
 		</dict>
 		<key>B643B2DF581708A1FF9969AC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>7D93B84DBA11166D8EBAD9CC</string>
+				<string>028FA672CB85ED54B9D5267D</string>
+				<string>B074A11C4A85405254C8184D</string>
+				<string>6142D71DE013DA14E6C86899</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>XLFormPickerCell.h</string>
 			<key>path</key>
@@ -8797,7 +9195,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>B8CDEB06F67B20D0B5B98B57</key>
@@ -8832,7 +9230,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>XLFormSectionDescriptor.m</string>
 			<key>path</key>
@@ -8919,7 +9317,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>NSManagedObjectModel+MagicalRecord.m</string>
 			<key>path</key>
@@ -8959,12 +9357,9 @@
 			<key>fileRef</key>
 			<string>52CE6200500E9553E701F358</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>BC5F4EC9F46EF06C6E3623E1</key>
 		<dict>
@@ -9034,7 +9429,9 @@
 			<key>fileRef</key>
 			<string>FFBD86BBD6A8D21B4424D797</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>BE0C31291C3C989D269ED301</key>
 		<dict>
@@ -9102,8 +9499,8 @@
 		</dict>
 		<key>BE831C0525C419A7C25BD764</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>8CF5F63785335D68060BA864</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -9128,6 +9525,11 @@
 			<string>F69B6278FC24291F5720B070</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>BF816EA8070174A9103021DB</key>
 		<dict>
@@ -9145,8 +9547,6 @@
 		</dict>
 		<key>BF88266124BDCF7C1D621A48</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -9179,11 +9579,50 @@
 			<string>C08C7B25439FBE8602F2CB83</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>C08C7B25439FBE8602F2CB83</key>
 		<dict>
-			<key>includeInIndex</key>
+			<key>fileRef</key>
+			<string>CE2D3EF6CE3D3EAAA0B5D216</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1F7C05FD8596148B3B871AF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6097E69088510B8EB5461829</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C2085F7A2E2833A36397B939</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D93B84DBA11166D8EBAD9CC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C263CB6EEE71A5065876D541</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>1BA40ADF3B909154A159897A</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2706286B4F58DAF42A1803DC</string>
+			<key>remoteInfo</key>
+			<string>Pods-Wala-AFNetworking</string>
+		</dict>
+		<key>C2799E8BAF9D7736B4595EE3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DC69BA037F89793011C46B6</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -9257,7 +9696,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>XLFormTextViewCell.m</string>
 			<key>path</key>
@@ -9418,7 +9857,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>C70B9CC4D28E469974043522</key>
@@ -9534,7 +9973,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>NSManagedObjectModel+MagicalRecord.h</string>
 			<key>path</key>
@@ -9655,7 +10094,7 @@
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>TransitionKit</string>
 			<key>path</key>
 			<string>../Target Support Files/Pods-Wala-MRProgress</string>
 			<key>sourceTree</key>
@@ -9737,7 +10176,9 @@
 				<string>7503C473D6DE8EABDFC99F62</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>Pods-Wala</string>
 			<key>path</key>
@@ -9782,7 +10223,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>CC22056C94A1B9F815CA6B71</key>
@@ -9814,12 +10255,12 @@
 		</dict>
 		<key>CCDB630FF078CD76C76470BD</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>E24E37E8EBA73CC97661653F</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>XLFormSwitchCell.m</string>
 			<key>path</key>
@@ -9933,8 +10374,6 @@
 		</dict>
 		<key>CE8A19A59E741C6C3A13D6F1</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -9942,7 +10381,20 @@
 			<key>path</key>
 			<string>Pods-Wala-SOCKit-Private.xcconfig</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CDE2CEA9538108FEA2E00AF9</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Wala.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>CEBA82BEBEB14FC91DE6173B</key>
 		<dict>
@@ -9989,7 +10441,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKDictionaryUtilities.m</string>
 			<key>path</key>
@@ -10082,8 +10534,15 @@
 		</dict>
 		<key>D2F14939B6139392B96123AC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>83E0AFFB39336858497246A1</string>
+				<string>60AFEF4F1FB262C5019C20DE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -10143,7 +10602,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKManagedObjectMappingOperationDataSource.m</string>
 			<key>path</key>
@@ -10192,7 +10651,7 @@
 				<string>E84A7A8BD412277EF6A66FF4</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -10260,7 +10719,15 @@
 			<key>fileRef</key>
 			<string>4D4001D0C8DD8690975BA96A</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RKMappingResult.m</string>
+			<key>path</key>
+			<string>Code/ObjectMapping/RKMappingResult.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D6FF9A59DF73BFDC80D9D443</key>
 		<dict>
@@ -10269,7 +10736,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>AFJSONRequestOperation.h</string>
 			<key>path</key>
@@ -10373,7 +10840,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>DA5A51787FEFEBA0C1C0A955</key>
@@ -10433,7 +10900,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>DC6952556828B3184A4C5B7A</key>
@@ -10472,7 +10939,9 @@
 			<key>fileRef</key>
 			<string>7C3F60BD92B3E9ED00E65E9B</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>DD9E55E0E9BB17414A4D55F0</key>
 		<dict>
@@ -10588,9 +11057,13 @@
 				<string>YES</string>
 			</dict>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Wala-SOCKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E02CF4A4ED4A9E43236EF91D</key>
 		<dict>
@@ -10598,6 +11071,11 @@
 			<string>C42D646CB8529290162AC053</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>E03AA1635645602FC0A6DD95</key>
 		<dict>
@@ -10655,7 +11133,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>XLFormRightDetailCell.h</string>
 			<key>path</key>
@@ -10728,18 +11206,16 @@
 		</dict>
 		<key>E2BF2242030737FF54A312A4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
 			<string>XLFormValidatorProtocol.h</string>
 			<key>path</key>
 			<string>XLForm/XL/Validation/XLFormValidatorProtocol.h</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>E2C50866DECB6895BE454E87</key>
 		<dict>
@@ -10750,7 +11226,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>E2EB8D8BC5F228E7304EC9E3</key>
@@ -10902,7 +11378,7 @@
 				<string>DDD21EED51571889AF0418B8</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Pods-Wala-ISO8601DateFormatterValueTransformer</string>
 			<key>productName</key>
@@ -10995,13 +11471,9 @@
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
@@ -11015,6 +11487,16 @@
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -11268,11 +11750,6 @@
 			<string>607932B75C50AF926843E57A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
 		</dict>
 		<key>EA8FF64EDFA2EFAB9ACA500E</key>
 		<dict>
@@ -11489,7 +11966,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>F028D0D5C1C18E893101C24F</key>
@@ -11501,7 +11978,7 @@
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
 			</dict>
 		</dict>
 		<key>F05B47FDD626E36A127C71E6</key>
@@ -11518,7 +11995,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>RKFetchRequestManagedObjectCache.h</string>
 			<key>path</key>
@@ -11540,7 +12017,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>AFHTTPClient.h</string>
 			<key>path</key>
@@ -11626,8 +12103,8 @@
 		</dict>
 		<key>F492361611EB763C3FA2B555</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>9C096774A7F93952F077F034</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -11715,7 +12192,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKMappingOperation.m</string>
 			<key>path</key>
@@ -11762,7 +12239,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKObjectMappingMatcher.m</string>
 			<key>path</key>
@@ -11820,7 +12297,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>RKPropertyMapping.m</string>
 			<key>path</key>
@@ -11995,7 +12472,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>AFHTTPClient.m</string>
 			<key>path</key>
@@ -12023,7 +12500,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>XLFormCheckCell.m</string>
 			<key>path</key>
@@ -12037,6 +12514,11 @@
 			<string>044626630508123A300A28B4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>FBE0F7A8CEFCC28483955BAA</key>
 		<dict>
@@ -12059,6 +12541,11 @@
 			<string>CE565A7046276EC0CEC79C20</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
+			</dict>
 		</dict>
 		<key>FC1C989E2F368DA0896EE5A8</key>
 		<dict>
@@ -12405,8 +12892,8 @@
 		</dict>
 		<key>FFDBF0648ED1A1706C365515</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>6A3C9EC3218A028BA7305B60</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>

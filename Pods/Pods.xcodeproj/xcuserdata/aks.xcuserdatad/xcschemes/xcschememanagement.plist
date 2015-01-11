@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Wala-JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Wala-MRProgress.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,57 +67,62 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>366BCF483EE5E558AFCB97DF</key>
+		<key>014EFD59AAEC751D5B1EFF0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4CBF46D3F29CCEDDE092C651</key>
+		<key>2706286B4F58DAF42A1803DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>751EA0BF7CE7738F3752D223</key>
+		<key>2D9341C2EE0091C4AE7B07A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7659B4405E6A49EDEE6757C3</key>
+		<key>3793BC8816FCB78B598A32E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>999454802A4872F20F7B58C1</key>
+		<key>6203690B7B9E03457D82EFB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AA4BE50068E5EBF962E7C9E7</key>
+		<key>6B77862822C94C202EAD5D15</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DDDDAFA45ECDB13A22DDEC57</key>
+		<key>71A6F0ED56689FD02D4032F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E03FF99FB9DB4F56162B9763</key>
+		<key>8C21D626302F159FC52BD352</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3516B7F266473D61C2C2DFC</key>
+		<key>99C42DD7403CC598D4A0B181</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F2A27908A3E58A9652AC68E9</key>
+		<key>AE25DE52C8A012780A1453C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8ED14BB989C8E022DB5A80D</key>
+		<key>B0D29BFF0B219825A3EAB352</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB162EB81E51615858D39695</key>
 		<dict>
 			<key>primary</key>
 			<true/>

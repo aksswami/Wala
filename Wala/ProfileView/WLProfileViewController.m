@@ -23,6 +23,10 @@
     [super viewDidLoad];
     [self setLabels];
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];
+    self.navigationItem.title = @"My Profile";
+    self.userImageView.layer.cornerRadius = self.userImageView.frame.size.height /2;
+    self.userImageView.layer.masksToBounds = YES;
+    self.userImageView.layer.borderWidth = 0;
 
     // Do any additional setup after loading the view.
 }
@@ -34,11 +38,14 @@
 
 -(void)setLabels
 {
-    self.userNameLabel.text = [NSString stringWithFormat: @"Name : %@", self.kycResponse.poi.name];
+    self.userNameLabel.text = [NSString stringWithFormat: @"%@", self.kycResponse.poi.name];
     self.userLocation.text = [NSString stringWithFormat: @"Location : %@ %@ %@", self.kycResponse.poa.house, self.kycResponse.poa.street, self.kycResponse.poa.vtc];
     [self.userImageView setImage:[self decodeBase64ToImage:self.kycResponse.photo]];
 }
 
+
+#pragma mark -
+#pragma mark - Table View Delegate DataSource
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_REUSE_IDENTIFIER];
@@ -50,22 +57,29 @@
 //            break;
             
         case 0:
+            cell.textLabel.text = @"Address";
+            [cell.detailTextLabel setNumberOfLines:2];
+            [cell.detailTextLabel setLineBreakMode:NSLineBreakByWordWrapping];
+            cell.detailTextLabel.text = [NSString stringWithFormat: @"%@ %@ %@", self.kycResponse.poa.house, self.kycResponse.poa.street, self.kycResponse.poa.vtc];;
+            break;
+            
+        case 1:
             cell.textLabel.text = @"City";
             cell.detailTextLabel.text = self.kycResponse.poa.subdistrict;
             break;
             
-        case 1:
+        case 2:
             cell.textLabel.text = @"District";
             cell.detailTextLabel.text = self.kycResponse.poa.district;
             break;
             
             
-        case 2:
+        case 3:
             cell.textLabel.text = @"Date of Birth";
             cell.detailTextLabel.text = self.kycResponse.poi.dob;
             break;
             
-        case 3:
+        case 4:
             cell.textLabel.text = @"Gender";
             cell.detailTextLabel.text = self.kycResponse.poi.gender;
             break;
@@ -80,7 +94,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 5;
 }
 
 + (UIImage *)decodeBase64ToImage:(NSString *)strEncodeData {
