@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KYCResponse.h"
 
 @interface WLProfileViewController : UIViewController<UITableViewDataSource , UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *userImageView;
@@ -14,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *userLocation;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIButton *continueButton;
+@property (strong, nonatomic) KYCResponse *kycResponse;
 
 @end
