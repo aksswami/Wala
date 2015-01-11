@@ -91,12 +91,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="70u-dy-Ob6">
-                                <constraints>
-                                    <constraint firstAttribute="height" id="38S-Do-aJT"/>
-                                    <constraint firstAttribute="width" id="cyd-He-gOh"/>
-                                </constraints>
-                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="O2X-It-dI7">
                                 <rect key="frame" x="0.0" y="274" width="600" height="187"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -148,6 +142,13 @@
                                     <constraint firstAttribute="height" constant="29" id="sBW-od-dzt"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checked_user-100.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kn3-ue-OIH">
+                                <rect key="frame" x="330" y="491" width="35" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="CBN-W2-4as"/>
+                                    <constraint firstAttribute="width" constant="35" id="Hf2-gT-0Eb"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Verified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LX3-xe-3xq">
                                 <rect key="frame" x="73" y="491" width="164" height="29"/>
                                 <constraints>
@@ -158,11 +159,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checked_user-100.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kn3-ue-OIH">
-                                <rect key="frame" x="330" y="491" width="35" height="29"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="70u-dy-Ob6">
+                                <rect key="frame" x="225" y="72" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="CBN-W2-4as"/>
-                                    <constraint firstAttribute="width" constant="35" id="Hf2-gT-0Eb"/>
+                                    <constraint firstAttribute="height" constant="150" id="38S-Do-aJT"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="65k-oh-lhO"/>
+                                    <constraint firstAttribute="width" constant="150" id="cyd-He-gOh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="dmB-j2-NpV"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -175,6 +178,7 @@
                             <constraint firstItem="pr2-pc-d7v" firstAttribute="top" secondItem="O2X-It-dI7" secondAttribute="bottom" constant="30" id="3KT-SO-MY7"/>
                             <constraint firstItem="Kn3-ue-OIH" firstAttribute="top" secondItem="O2X-It-dI7" secondAttribute="bottom" constant="30" id="3zc-HC-TUP"/>
                             <constraint firstItem="AjV-Yq-5o1" firstAttribute="centerX" secondItem="Tj2-Ah-zFw" secondAttribute="centerX" id="IIA-yC-NTf"/>
+                            <constraint firstAttribute="centerX" secondItem="70u-dy-Ob6" secondAttribute="centerX" id="O4p-D1-NhM"/>
                             <constraint firstItem="F1g-GI-dyO" firstAttribute="top" secondItem="Tj2-Ah-zFw" secondAttribute="bottom" constant="8" symbolic="YES" id="Xqn-11-jIA"/>
                             <constraint firstItem="AjV-Yq-5o1" firstAttribute="leading" secondItem="nbB-cg-K36" secondAttribute="leadingMargin" constant="77" id="Y4w-k0-L1T"/>
                             <constraint firstItem="Kn3-ue-OIH" firstAttribute="bottom" secondItem="LX3-xe-3xq" secondAttribute="bottom" id="ZIC-wF-Rv2"/>
@@ -183,10 +187,9 @@
                             <constraint firstItem="Tj2-Ah-zFw" firstAttribute="top" secondItem="LX3-xe-3xq" secondAttribute="bottom" constant="28" id="gJI-Lp-S5a"/>
                             <constraint firstItem="AjV-Yq-5o1" firstAttribute="top" secondItem="oMo-h9-Upg" secondAttribute="bottom" constant="151" id="iKC-Ws-Gt7"/>
                             <constraint firstItem="LX3-xe-3xq" firstAttribute="leading" secondItem="pr2-pc-d7v" secondAttribute="trailing" constant="8" id="j3f-Gj-CZa"/>
-                            <constraint firstItem="O2X-It-dI7" firstAttribute="leading" secondItem="70u-dy-Ob6" secondAttribute="leading" id="lON-Kk-t45"/>
                             <constraint firstItem="O2X-It-dI7" firstAttribute="top" secondItem="AjV-Yq-5o1" secondAttribute="bottom" constant="8" symbolic="YES" id="ljg-xH-4oc"/>
                             <constraint firstItem="Kn3-ue-OIH" firstAttribute="leading" secondItem="LX3-xe-3xq" secondAttribute="trailing" constant="93" id="mVf-iH-O6l"/>
-                            <constraint firstItem="70u-dy-Ob6" firstAttribute="top" secondItem="nbB-cg-K36" secondAttribute="top" id="s8O-PP-RXL"/>
+                            <constraint firstItem="70u-dy-Ob6" firstAttribute="top" secondItem="nbB-cg-K36" secondAttribute="top" constant="72" id="s8O-PP-RXL"/>
                             <constraint firstItem="pr2-pc-d7v" firstAttribute="leading" secondItem="nbB-cg-K36" secondAttribute="leadingMargin" id="sxT-7P-HMA"/>
                             <constraint firstItem="LX3-xe-3xq" firstAttribute="top" secondItem="O2X-It-dI7" secondAttribute="bottom" constant="30" id="ufm-54-mG1"/>
                             <constraint firstItem="F1g-GI-dyO" firstAttribute="top" secondItem="pr2-pc-d7v" secondAttribute="bottom" constant="80" id="zoD-EE-vPm"/>
@@ -208,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZPs-xa-hat" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="571" y="1316"/>
+            <point key="canvasLocation" x="595" y="1335"/>
         </scene>
         <!--Shop Details View Controller-->
         <scene sceneID="Ux8-w0-6Bo">
