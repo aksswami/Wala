@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0453BD4F1A621CEA00BF3527 /* ShopDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453BD4E1A621CEA00BF3527 /* ShopDetailsViewController.m */; };
+		0453BD531A6230F300BF3527 /* ShopProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453BD521A6230F300BF3527 /* ShopProfileViewController.m */; };
 		04C3574E1A6182570005554F /* Wala_Text_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C3574D1A6182570005554F /* Wala_Text_logo.png */; };
 		04C357521A6185E40005554F /* WLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357511A6185E40005554F /* WLRegisterViewController.m */; };
 		04C357591A6197330005554F /* WLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357581A6197330005554F /* WLProfileViewController.m */; };
@@ -52,6 +53,8 @@
 /* Begin PBXFileReference section */
 		0453BD4D1A621CEA00BF3527 /* ShopDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopDetailsViewController.h; path = ShopDetailsView/ShopDetailsViewController.h; sourceTree = "<group>"; };
 		0453BD4E1A621CEA00BF3527 /* ShopDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopDetailsViewController.m; path = ShopDetailsView/ShopDetailsViewController.m; sourceTree = "<group>"; };
+		0453BD511A6230F300BF3527 /* ShopProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopProfileViewController.h; path = ShopProfile/ShopProfileViewController.h; sourceTree = "<group>"; };
+		0453BD521A6230F300BF3527 /* ShopProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopProfileViewController.m; path = ShopProfile/ShopProfileViewController.m; sourceTree = "<group>"; };
 		04C3574D1A6182570005554F /* Wala_Text_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wala_Text_logo.png; sourceTree = "<group>"; };
 		04C357501A6185E40005554F /* WLRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLRegisterViewController.h; path = RegisterView/WLRegisterViewController.h; sourceTree = "<group>"; };
 		04C357511A6185E40005554F /* WLRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLRegisterViewController.m; path = RegisterView/WLRegisterViewController.m; sourceTree = "<group>"; };
@@ -148,6 +151,15 @@
 			name = ShopDetailsView;
 			sourceTree = "<group>";
 		};
+		0453BD501A62301900BF3527 /* ShopProfile */ = {
+			isa = PBXGroup;
+			children = (
+				0453BD511A6230F300BF3527 /* ShopProfileViewController.h */,
+				0453BD521A6230F300BF3527 /* ShopProfileViewController.m */,
+			);
+			name = ShopProfile;
+			sourceTree = "<group>";
+		};
 		04C3574F1A6185940005554F /* RegisterView */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +192,7 @@
 		097E28621A6125C9002ADDEC /* Wala */ = {
 			isa = PBXGroup;
 			children = (
+				0453BD501A62301900BF3527 /* ShopProfile */,
 				0453BD4C1A621CB400BF3527 /* ShopDetailsView */,
 				04C3574F1A6185940005554F /* RegisterView */,
 				09D31C831A61B72E00A1B1E6 /* RKObjectManager */,
@@ -580,6 +593,7 @@
 				09D31C821A61A1A600A1B1E6 /* KYCResponse.m in Sources */,
 				09D31C431A617DAE00A1B1E6 /* Location.m in Sources */,
 				09D31C4F1A617DC100A1B1E6 /* UIViewController+FIBaseViewController.m in Sources */,
+				0453BD531A6230F300BF3527 /* ShopProfileViewController.m in Sources */,
 				09D31C7A1A6199E600A1B1E6 /* FinalResponse.m in Sources */,
 				09D31C871A61B7D100A1B1E6 /* OTPObjectManager.m in Sources */,
 				097E28661A6125C9002ADDEC /* main.m in Sources */,

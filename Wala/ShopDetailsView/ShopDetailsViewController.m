@@ -9,6 +9,7 @@
 #import "ShopDetailsViewController.h"
 #import "XLForm.h"
 
+
 @interface ShopDetailsViewController ()
 
 @end
@@ -17,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initializeSections];
     // Do any additional setup after loading the view.
 }
 
@@ -68,12 +70,21 @@
      row = [XLFormRowDescriptor formRowDescriptorWithTag:@"shopTag" rowType:XLFormRowDescriptorTypeSelectorPush title:@"Choose your shop"];
     
     row.selectorOptions = @[
-                            @"SUBJI",
-                            @"KIRANA",
-                            @"ELECTRICIAN"
-                            @"PLUMBER",
-                            @"CHEMIST"
+                            @"ABC KIRANA",
+                            @"XYZ CHEMIST",
+                            @"WS ELECTRICALS",
+                            @"MOVERS AND SHAKERS",
+                            @"NANDU'S CHAI SHOP",
+                            @"GOVIND'S KIRANA"
                             ];
+    [section addFormRow:row];
+    
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"newShopTag" rowType:XLFormRowDescriptorTypeButton title:@"Is your shop not listed? Click to Add Shop"];
+    row.action.formBlock = ^(XLFormRowDescriptor *row)
+    {
+        [self performSegueWithIdentifier:@"" sender:nil];
+    };
+    
     [section addFormRow:row];
     
     [self.form addFormSection:section];

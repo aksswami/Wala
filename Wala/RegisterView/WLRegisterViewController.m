@@ -73,7 +73,7 @@
 -(void)askForOTP
 {
     AuthCaptureRequest * authCaptureRequest = [[AuthCaptureRequest alloc]init];
-    authCaptureRequest.aadhaarId = @"";
+    authCaptureRequest.aadhaarId = AADHAARID;
     authCaptureRequest.certificateType = CERTIFICATE_TYPE;
     authCaptureRequest.channel = CHANNEL;
     authCaptureRequest.deviceId = DEVICE_ID;
@@ -104,9 +104,10 @@
 
 -(void)showOTPAlert
 {
-    NSString *message = @"I hereby give my consent to share my demographic details";
+    NSString *title = @"Please enter the OTP sent to your Aadhaar registered mobile.";
+    NSString *message = @"I hereby give my consent to share my demographic details.";
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Aadhaar Verification" message:message cancelButtonItem:[RIButtonItem itemWithLabel:@"Submit" action:^{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message cancelButtonItem:[RIButtonItem itemWithLabel:@"Submit" action:^{
         
         //trigger Web Service
         [self askForKYC:[alert textFieldAtIndex:0].text];

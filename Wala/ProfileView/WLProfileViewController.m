@@ -10,6 +10,8 @@
 #import <QuartzCore/QuartzCore.h>
 
 #define CELL_REUSE_IDENTIFIER @"profileViewTableViewCell"
+#define SHOP_SEGUE_IDENTIFIER @"shopDetailSegue"
+
 
 @interface WLProfileViewController ()
 
@@ -88,7 +90,7 @@
 
 - (IBAction)continueButtonTouched:(id)sender {
     
-    
+    [self performSegueWithIdentifier:SHOP_SEGUE_IDENTIFIER sender:nil];
     
 }
 
