@@ -13,6 +13,8 @@
 		04C357521A6185E40005554F /* WLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357511A6185E40005554F /* WLRegisterViewController.m */; };
 		04C357591A6197330005554F /* WLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C357581A6197330005554F /* WLProfileViewController.m */; };
 		04C3575B1A619BD20005554F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C3575A1A619BD20005554F /* QuartzCore.framework */; };
+		0900D72C1A62378100D3E616 /* Aadhaar_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0900D72B1A62378100D3E616 /* Aadhaar_Logo.png */; };
+		0900D72E1A62388F00D3E616 /* checked_user-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 0900D72D1A62388F00D3E616 /* checked_user-100.png */; };
 		097E28661A6125C9002ADDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28651A6125C9002ADDEC /* main.m */; };
 		097E28691A6125C9002ADDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E28681A6125C9002ADDEC /* AppDelegate.m */; };
 		097E286C1A6125C9002ADDEC /* Wala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 097E286A1A6125C9002ADDEC /* Wala.xcdatamodeld */; };
@@ -61,6 +63,8 @@
 		04C357571A6197330005554F /* WLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLProfileViewController.h; path = ProfileView/WLProfileViewController.h; sourceTree = "<group>"; };
 		04C357581A6197330005554F /* WLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WLProfileViewController.m; path = ProfileView/WLProfileViewController.m; sourceTree = "<group>"; };
 		04C3575A1A619BD20005554F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0900D72B1A62378100D3E616 /* Aadhaar_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aadhaar_Logo.png; sourceTree = "<group>"; };
+		0900D72D1A62388F00D3E616 /* checked_user-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked_user-100.png"; sourceTree = "<group>"; };
 		0959D258FAFADC6D5E35ECD9 /* Pods-Wala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wala/Pods-Wala.debug.xcconfig"; sourceTree = "<group>"; };
 		097E28601A6125C9002ADDEC /* Wala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097E28641A6125C9002ADDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 		097E28631A6125C9002ADDEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0900D72D1A62388F00D3E616 /* checked_user-100.png */,
+				0900D72B1A62378100D3E616 /* Aadhaar_Logo.png */,
 				04C3574D1A6182570005554F /* Wala_Text_logo.png */,
 				09D31C8C1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist */,
 				09D31C511A617DF700A1B1E6 /* Constant.h */,
@@ -523,9 +529,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D31C8D1A61CDCD00A1B1E6 /* ErrorCodeMsg.plist in Resources */,
+				0900D72C1A62378100D3E616 /* Aadhaar_Logo.png in Resources */,
 				097E28721A6125C9002ADDEC /* Main.storyboard in Resources */,
 				04C3574E1A6182570005554F /* Wala_Text_logo.png in Resources */,
 				097E28771A6125C9002ADDEC /* LaunchScreen.xib in Resources */,
+				0900D72E1A62388F00D3E616 /* checked_user-100.png in Resources */,
 				097E28741A6125C9002ADDEC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
