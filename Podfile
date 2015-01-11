@@ -12,7 +12,7 @@ pod 'MRProgress', '~> 0.8.0'
 pod 'XLForm', '~> 2.1.0'
 pod 'MagicalRecord'
 pod 'UIAlertView-Blocks', '~> 1.0'
-#pod 'JVFloatLabeledTextField', '~> 0.0'
+pod 'JVFloatLabeledTextField', '~> 0.0'
 
 end
 
