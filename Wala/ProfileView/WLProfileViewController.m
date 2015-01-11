@@ -21,6 +21,10 @@
     [super viewDidLoad];
     [self setLabels];
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];
+    self.navigationItem.title = @"Wala Profile";
+    self.userImageView.layer.cornerRadius = self.userImageView.frame.size.height /2;
+    self.userImageView.layer.masksToBounds = YES;
+    self.userImageView.layer.borderWidth = 0;
 
     // Do any additional setup after loading the view.
 }
